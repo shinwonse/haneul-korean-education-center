@@ -4,9 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const NAVIGATION_LINKS = [
-  { label: "학원소개", href: "/about" },
-  { label: "교육과정", href: "/curriculum" },
-  { label: "입학안내", href: "/admission" },
+  { label: "학원 소개", href: "/about" },
+  { label: "교육 과정", href: "/curriculum" },
+  { label: "입학 안내", href: "/admission" },
 ] as const;
 
 export function Header() {
@@ -30,16 +30,15 @@ export function Header() {
           </Link>
 
           {/* Navigation - Center */}
-          <nav className="hidden md:flex items-center justify-center gap-2">
+          <nav className={cn("hidden md:flex items-center justify-center gap-20")}>
             {NAVIGATION_LINKS.map((link) => (
-              <Button
+              <Link
                 key={link.href}
-                variant="ghost"
-                asChild
-                className="text-base font-medium hover:text-primary"
+                href={link.href}
+                className={cn("font-medium text-center text-base hover:text-primary")}
               >
-                <a href={link.href}>{link.label}</a>
-              </Button>
+                {link.label}
+              </Link>
             ))}
           </nav>
 
