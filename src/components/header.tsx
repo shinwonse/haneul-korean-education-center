@@ -11,19 +11,19 @@ const NAVIGATION_LINKS = [
 
 export function Header() {
   return (
-    <header className="px-5 py-3 sticky top-0 z-50 w-full">
-      <div className="">
-        <div className="mx-auto grid grid-cols-3 items-center">
+    <header className={cn("px-5 py-3 h-[70px] sticky top-0 z-50 w-full")}>
+      <div className={cn("")}>
+        <div className={cn("mx-auto grid grid-cols-3 items-center")}>
           {/* Logo and title */}
-          <Link href="/" className="flex items-center gap-4">
+          <Link href="/" className={cn("flex items-center gap-4")}>
             <Image
               src="logo_black.svg"
               alt="하늘국어영재원 로고"
               width={45}
               height={45}
             />
-            <div className="flex flex-col">
-              <h1 className="text-lg font-bold text-primary leading-tight">
+            <div className={cn("flex flex-col")}>
+              <h1 className={cn("text-lg font-bold text-primary leading-tight")}>
                 하늘국어영재원
               </h1>
             </div>
