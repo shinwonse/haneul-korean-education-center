@@ -1,0 +1,51 @@
+import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+
+const NAVIGATION_LINKS = [
+  { label: "학원소개", href: "/about" },
+  { label: "교육과정", href: "/curriculum" },
+  { label: "입학안내", href: "/entry" },
+] as const;
+
+export function Header() {
+  return (
+    <header className="px-5 py-3 sticky top-0 z-50 w-full">
+      <div className="">
+        <div className="mx-auto grid grid-cols-3 items-center">
+          {/* Logo and title */}
+          <div className="flex items-center gap-4">
+            <Image
+              src="logo_black.svg"
+              alt="하늘국어영재원 로고"
+              width={45}
+              height={45}
+            />
+            <div className="flex flex-col">
+              <h1 className="text-lg font-bold text-primary leading-tight">
+                하늘국어영재원
+              </h1>
+            </div>
+          </div>
+
+          {/* Navigation - Center */}
+          <nav className="hidden md:flex items-center justify-center gap-2">
+            {NAVIGATION_LINKS.map((link) => (
+              <Button
+                key={link.href}
+                variant="ghost"
+                asChild
+                className="text-base font-medium hover:text-primary"
+              >
+                <a href={link.href}>{link.label}</a>
+              </Button>
+            ))}
+          </nav>
+
+          {/* Empty space for balance */}
+          <div></div>
+        </div>
+      </div>
+    </header>
+  );
+}
