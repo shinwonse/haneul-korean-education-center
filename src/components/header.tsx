@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 const NAVIGATION_LINKS = [
   { label: "학원소개", href: "/about" },
@@ -14,7 +15,7 @@ export function Header() {
       <div className="">
         <div className="mx-auto grid grid-cols-3 items-center">
           {/* Logo and title */}
-          <div className="flex items-center gap-4">
+          <Link href="/" className="flex items-center gap-4">
             <Image
               src="logo_black.svg"
               alt="하늘국어영재원 로고"
@@ -26,7 +27,7 @@ export function Header() {
                 하늘국어영재원
               </h1>
             </div>
-          </div>
+          </Link>
 
           {/* Navigation - Center */}
           <nav className="hidden md:flex items-center justify-center gap-2">
