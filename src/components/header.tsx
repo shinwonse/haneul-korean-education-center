@@ -5,7 +5,7 @@ import Image from "next/image";
 const NAVIGATION_LINKS = [
   { label: "학원소개", href: "/about" },
   { label: "교육과정", href: "/curriculum" },
-  { label: "입학안내", href: "/entry" },
+  { label: "입학안내", href: "/admission" },
 ] as const;
 
 export function Header() {
