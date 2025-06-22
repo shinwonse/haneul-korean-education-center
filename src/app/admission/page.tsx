@@ -20,15 +20,20 @@ export default function Admission() {
       {/* 입학 프로세스 섹션 */}
       <div className="flex flex-col items-start w-full max-w-4xl mt-16 gap-12">
         {/* 테스트 예약 */}
-        <div className="flex items-center gap-8">
+        <div className="flex gap-8">
           <div className="w-20 h-20 flex items-center justify-center">
             <Image src="/phone.png" alt="전화" width={64} height={64} />
           </div>
-          <div className="flex flex-col">
-            <div className="bg-[#2A338E] text-white px-6 py-2 mb-4">
+          <div className="flex flex-col gap-5">
+            <Badge
+              className={cn(
+                "rounded-full shadow-lg bg-[#2A338E]",
+                "py-1 px-4 text-white text-lg font-medium"
+              )}
+            >
               <span className="text-xl font-semibold">테스트 예약</span>
-            </div>
-            <div className="space-y-2 text-gray-700">
+            </Badge>
+            <div className="text-gray-700">
               <div className="text-lg">- 중1 ~ 중3</div>
               <div className="text-lg">- 전화 및 블로그</div>
             </div>
@@ -36,15 +41,20 @@ export default function Admission() {
         </div>
 
         {/* 입학 테스트 진행 */}
-        <div className="flex items-center gap-8">
+        <div className="flex gap-8">
           <div className="w-20 h-20 flex items-center justify-center">
             <Image src="/test.png" alt="테스트" width={64} height={64} />
           </div>
-          <div className="flex flex-col">
-            <div className="bg-[#2A338E] text-white px-6 py-2 mb-4">
+          <div className="flex flex-col gap-5">
+            <Badge
+              className={cn(
+                "rounded-full shadow-lg bg-[#2A338E]",
+                "py-1 px-4 text-white text-lg font-medium"
+              )}
+            >
               <span className="text-xl font-semibold">입학 테스트 진행</span>
-            </div>
-            <div className="space-y-2 text-gray-700">
+            </Badge>
+            <div className="text-gray-700">
               <div className="text-lg">- 30문항 60분 진행</div>
               <div className="text-lg">- 무료 (2025 기준)</div>
               <div className="text-lg">
@@ -55,15 +65,20 @@ export default function Admission() {
         </div>
 
         {/* 반 편성 */}
-        <div className="flex items-center gap-8">
+        <div className="flex gap-8">
           <div className="w-20 h-20 flex items-center justify-center">
             <Image src="/people.png" alt="사람들" width={64} height={64} />
           </div>
-          <div className="flex flex-col">
-            <div className="bg-[#2A338E] text-white px-6 py-2 mb-4">
+          <div className="flex flex-col gap-5">
+            <Badge
+              className={cn(
+                "rounded-full shadow-lg bg-[#2A338E]",
+                "py-1 px-4 text-white text-lg font-medium"
+              )}
+            >
               <span className="text-xl font-semibold">반 편성</span>
-            </div>
-            <div className="space-y-2 text-gray-700">
+            </Badge>
+            <div className="text-gray-700">
               <div className="text-lg">
                 프리미엄반: 입학 테스트 결과 상위 10% (테도 접수 반영)
               </div>
