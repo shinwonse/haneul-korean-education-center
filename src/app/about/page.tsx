@@ -107,53 +107,82 @@ export default function About() {
         </Badge>
         <div className={cn("flex flex-col gap-8 max-w-4xl w-full")}>
           {/* 목표 1 */}
-          <div className={cn("relative bg-white rounded-lg p-8 shadow-sm")}>
+          <div
+            className={cn(
+              "flex flex-col items-center justify-center relative h-[346px] bg-white rounded-lg text-center"
+            )}
+          >
             <div
               className={cn(
                 "absolute top-4 left-4 text-8xl font-bold text-gray-200 select-none"
               )}
             >
-              01
+              1
             </div>
             <div className={cn("relative z-10 pl-24")}>
-              <p className={cn("text-gray-800 leading-relaxed text-base")}>
+              <p
+                className={cn(
+                  "text-gray-800 leading-relaxed text-2xl font-medium"
+                )}
+              >
                 비문학 지문을 문장 단위로 읽으며 도출할 수 있는 정보를 생각하고
+                <br />
                 자료를 활용하여 질문에 맞게 논리적인 글쓰기를 할 수 있다.
               </p>
             </div>
           </div>
 
           {/* 목표 2 */}
-          <div className={cn("relative bg-white rounded-lg p-8 shadow-sm")}>
+          <div
+            className={cn(
+              "flex flex-col items-center justify-center relative h-[346px] bg-white rounded-lg text-center"
+            )}
+          >
             <div
               className={cn(
                 "absolute top-4 left-4 text-8xl font-bold text-gray-200 select-none"
               )}
             >
-              02
+              2
             </div>
             <div className={cn("relative z-10 pl-24")}>
-              <p className={cn("text-gray-800 leading-relaxed text-base")}>
+              <p
+                className={cn(
+                  "text-gray-800 leading-relaxed text-2xl font-medium"
+                )}
+              >
                 교육과정 내의 모든 교과서 작품에 수록된 문학 작품을 읽어 문학이
+                <br />
                 우리 삶과 맞닿아 있음을 이해하고, 삶에 적용해보는 자기표현적
+                <br />
                 글쓰기를 할 수 있다.
               </p>
             </div>
           </div>
 
           {/* 목표 3 */}
-          <div className={cn("relative bg-white rounded-lg p-8 shadow-sm")}>
+          <div
+            className={cn(
+              "flex flex-col items-center justify-center relative h-[346px] bg-white rounded-lg text-center"
+            )}
+          >
             <div
               className={cn(
                 "absolute top-4 left-4 text-8xl font-bold text-gray-200 select-none"
               )}
             >
-              03
+              3
             </div>
             <div className={cn("relative z-10 pl-24")}>
-              <p className={cn("text-gray-800 leading-relaxed text-base")}>
+              <p
+                className={cn(
+                  "text-gray-800 leading-relaxed text-2xl font-medium"
+                )}
+              >
                 우리 삶에서 실제로 일어나는 시사 문제에 대해 생각해보는
+                <br />
                 사회참여적 글쓰기와 수행 독서를 통해 개념은 지식과 진로를
+                <br />
                 연관지어 보는 진로 연계글쓰기를 할 수 있다.
               </p>
             </div>
