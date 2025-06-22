@@ -23,8 +23,8 @@ export default function Admission() {
       </div>
 
       {/* 개별 맞춤형 관리 */}
-      <div className="flex flex-col items-center w-full max-w-4xl mt-16">
-        <div className="flex gap-4 mb-8">
+      <div className="flex flex-col items-start w-full max-w-4xl mt-16">
+        <div className="flex items-center gap-4 mb-8">
           <div className="w-2 h-12 bg-[#2A338E]"></div>
           <h2 className="text-2xl font-bold text-[#2A338E]">
             개별 맞춤형 관리
