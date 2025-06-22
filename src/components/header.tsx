@@ -11,7 +11,7 @@ const NAVIGATION_LINKS = [
     label: "학원 소개",
     href: "/about",
     submenus: [
-      { label: "가치와 비전", href: "/about#vision" },
+      { label: "가치와 비전", href: "/about#value" },
       { label: "학습 목표", href: "/about#goals" },
     ],
   },
@@ -83,7 +83,9 @@ export function Header() {
                     ? handleMouseEnter(link.href)
                     : undefined
                 }
-                onMouseLeave={handleMouseLeave}
+                onMouseLeave={
+                  link.submenus.length > 0 ? handleMouseLeave : undefined
+                }
               >
                 <Link
                   href={link.href}
@@ -99,15 +101,17 @@ export function Header() {
                 {activeSubmenu === link.href && link.submenus.length > 0 && (
                   <div
                     className={cn(
-                      "absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-48 bg-white border rounded-lg shadow-lg py-2"
+                      "absolute top-full left-1/2 transform -translate-x-1/2 mt-0 w-48 bg-white border rounded-lg shadow-lg py-2 z-50"
                     )}
+                    onMouseEnter={() => handleMouseEnter(link.href)}
+                    onMouseLeave={handleMouseLeave}
                   >
                     {link.submenus.map((submenu) => (
                       <Link
                         key={submenu.href}
                         href={submenu.href}
                         className={cn(
-                          "block px-4 py-2 text-sm font-medium hover:text-primary hover:bg-gray-50 transition-colors"
+                          "block px-4 py-2 text-sm font-medium hover:bg-gray-50 transition-colors"
                         )}
                       >
                         {submenu.label}
