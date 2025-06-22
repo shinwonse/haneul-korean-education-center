@@ -6,7 +6,21 @@ export default function About() {
   return (
     <div className={cn("flex flex-col items-center")}>
       {/* 타이틀 */}
-      <section></section>
+      <section
+        className={cn(
+          "flex flex-col items-center justify-center w-full h-[840px]"
+        )}
+        style={{
+          background: "linear-gradient(180deg, #E6F2FF 0%, #FFFFFF 100%)",
+        }}
+      >
+        <div className={cn("flex flex-col items-center")}>
+          <p className={cn("text-2xl font-medium")}>하늘 국어</p>
+          <p className={cn("text-4xl font-medium text-[70px] text-[#2A338E]")}>
+            상위 1%의 길을 열다
+          </p>
+        </div>
+      </section>
 
       {/* 가치와 비전 */}
       <section className={cn("flex flex-col items-center py-16 px-8")}>
