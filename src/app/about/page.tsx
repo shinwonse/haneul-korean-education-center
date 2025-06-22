@@ -4,12 +4,16 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className={cn("flex flex-col items-center")}>
+    <div
+      className={cn(
+        "scroll-smooth snap-y snap-mandatory overflow-y-scroll h-screen"
+      )}
+    >
       {/* 타이틀 */}
       <section
         id="intro"
         className={cn(
-          "flex flex-col items-center justify-center w-full h-[840px] relative"
+          "flex flex-col items-center justify-center w-full h-screen snap-start relative overflow-hidden"
         )}
         style={{
           background: "linear-gradient(180deg, #E6F2FF 0%, #FFFFFF 100%)",
@@ -35,7 +39,9 @@ export default function About() {
       {/* 가치와 비전 */}
       <section
         id="value"
-        className={cn("flex flex-col items-center py-16 px-8")}
+        className={cn(
+          "flex flex-col items-center justify-center min-h-screen py-16 px-8 snap-start"
+        )}
       >
         <Badge
           className={cn(
@@ -123,7 +129,7 @@ export default function About() {
       <section
         id="goals"
         className={cn(
-          "flex flex-col items-center py-16 px-8 bg-[#E7F3FF] w-full"
+          "flex flex-col items-center justify-center min-h-screen py-16 px-8 bg-[#E7F3FF] w-full snap-start"
         )}
       >
         <Badge
