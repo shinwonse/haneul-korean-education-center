@@ -7,14 +7,14 @@ export default function Home() {
       <main className="flex-1 flex flex-col items-center justify-center px-4 py-8">
         {/* Header text */}
         <div className="text-center mb-8">
-          <h1 className="text-lg text-gray-600 mb-2">
+          <h1 className="font-light text-lg text-gray-600 mb-2">
             국어영재원 &lt;하늘&gt;
           </h1>
           <div className="space-y-1">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
+            <h2 className="text-2xl md:text-3xl font-light text-gray-800">
               극상위권 도약을 위한
             </h2>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
+            <h2 className="text-2xl md:text-3xl font-medium text-gray-800">
               국어 영재 교육 시스템
             </h2>
           </div>
