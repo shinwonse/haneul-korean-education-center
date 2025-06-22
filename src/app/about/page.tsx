@@ -50,15 +50,15 @@ export default function About() {
         >
           가치와 비전
         </Badge>
-        <div className={cn("flex flex-col gap-16 max-w-6xl")}>
+        <div className={cn("flex flex-col gap-10 max-w-6xl")}>
           {/* 스키마 형성 */}
-          <div className={cn("flex flex-row items-center gap-12")}>
+          <div className={cn("flex flex-row gap-10")}>
             <Image
               src="/schema.jpg"
               alt="스키마 형성"
               width={400}
               height={300}
-              className={cn("rounded-lg object-cover")}
+              className={cn("object-cover")}
             />
             <div className={cn("flex-1")}>
               <h3 className={cn("text-2xl font-bold mb-4 text-gray-800")}>
@@ -77,13 +77,13 @@ export default function About() {
           </div>
 
           {/* 수행 독서 */}
-          <div className={cn("flex flex-row items-center gap-12")}>
+          <div className={cn("flex flex-row gap-10")}>
             <Image
               src="/reading.jpg"
               alt="수행 독서"
               width={400}
               height={300}
-              className={cn("rounded-lg object-cover")}
+              className={cn("object-cover")}
             />
             <div className={cn("flex-1")}>
               <h3 className={cn("text-2xl font-bold mb-4 text-gray-800")}>
@@ -101,13 +101,13 @@ export default function About() {
           </div>
 
           {/* 국어 영재 양성 */}
-          <div className={cn("flex flex-row items-center gap-12")}>
+          <div className={cn("flex flex-row gap-10")}>
             <Image
               src="/education.jpg"
               alt="국어 영재 양성"
               width={400}
               height={300}
-              className={cn("rounded-lg object-cover")}
+              className={cn("object-cover")}
             />
             <div className={cn("flex-1")}>
               <h3 className={cn("text-2xl font-bold mb-4 text-gray-800")}>
