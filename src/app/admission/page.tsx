@@ -29,12 +29,12 @@ export default function Admission() {
             <thead>
               <tr className="bg-[#E7F3FF]">
                 <th
-                  className="p-4 text-center font-bold text-[#2A338E]"
+                  className="p-4 text-center font-bold text-[#2A338E] whitespace-nowrap"
                   colSpan={2}
                 >
                   구분
                 </th>
-                <th className="p-4 text-center font-bold text-[#2A338E]">
+                <th className="p-4 text-center font-bold text-[#2A338E] whitespace-nowrap">
                   시간
                 </th>
                 <th className="p-4 text-center font-bold text-[#2A338E]">
@@ -45,11 +45,11 @@ export default function Admission() {
             <tbody>
               {/* 복습 테스트 */}
               <tr>
-                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300"></td>
-                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300">
+                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap"></td>
+                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap">
                   복습 테스트
                 </td>
-                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300">
+                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap">
                   10분
                 </td>
                 <td className="p-4 text-center bg-white border-b border-gray-300">
@@ -60,14 +60,14 @@ export default function Admission() {
               <tr>
                 <td
                   rowSpan={2}
-                  className="p-4 text-center font-semibold border-r border-gray-300 bg-white border-b border-gray-300 align-middle"
+                  className="p-4 text-center font-semibold border-r border-gray-300 bg-white border-b border-gray-300 align-middle whitespace-nowrap"
                 >
                   1교시
                 </td>
-                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300">
+                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap">
                   비문학
                 </td>
-                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300">
+                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap">
                   50분
                 </td>
                 <td className="p-4 text-center bg-white border-b border-gray-300">
@@ -77,10 +77,10 @@ export default function Admission() {
               </tr>
               {/* 1교시 - 개별 피드백 */}
               <tr>
-                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300">
+                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap">
                   개별 피드백
                 </td>
-                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300">
+                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap">
                   10분
                 </td>
                 <td className="p-4 text-center bg-white border-b border-gray-300">
@@ -89,13 +89,13 @@ export default function Admission() {
               </tr>
               {/* 2교시 */}
               <tr>
-                <td className="p-4 text-center font-semibold border-r border-gray-300 bg-white border-b border-gray-300">
+                <td className="p-4 text-center font-semibold border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap">
                   2교시
                 </td>
-                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300">
+                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap">
                   문학
                 </td>
-                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300">
+                <td className="p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap">
                   50분
                 </td>
                 <td className="p-4 text-center bg-white border-b border-gray-300">
@@ -105,13 +105,13 @@ export default function Admission() {
               </tr>
               {/* 3교시 */}
               <tr>
-                <td className="p-4 text-center font-semibold border-r border-gray-300 bg-white">
+                <td className="p-4 text-center font-semibold border-r border-gray-300 bg-white whitespace-nowrap">
                   3교시
                 </td>
-                <td className="p-4 text-center border-r border-gray-300 bg-white">
+                <td className="p-4 text-center border-r border-gray-300 bg-white whitespace-nowrap">
                   수행 독서
                 </td>
-                <td className="p-4 text-center border-r border-gray-300 bg-white">
+                <td className="p-4 text-center border-r border-gray-300 bg-white whitespace-nowrap">
                   10분
                 </td>
                 <td className="p-4 text-center bg-white">
