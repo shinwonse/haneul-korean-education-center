@@ -8,13 +8,22 @@ export default function About() {
       {/* 타이틀 */}
       <section
         className={cn(
-          "flex flex-col items-center justify-center w-full h-[840px]"
+          "flex flex-col items-center justify-center w-full h-[840px] relative"
         )}
         style={{
           background: "linear-gradient(180deg, #E6F2FF 0%, #FFFFFF 100%)",
         }}
       >
-        <div className={cn("flex flex-col items-center")}>
+        <Image
+          src="/logo_white.svg"
+          alt="하늘 국어 로고"
+          width={600}
+          height={300}
+          className={cn(
+            "mt-11 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0"
+          )}
+        />
+        <div className={cn("flex flex-col items-center relative z-10")}>
           <p className={cn("text-2xl font-medium")}>하늘 국어</p>
           <p className={cn("text-4xl font-medium text-[70px] text-[#2A338E]")}>
             상위 1%의 길을 열다
