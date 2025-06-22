@@ -13,7 +13,7 @@ export default function About() {
       <section
         id="intro"
         className={cn(
-          "flex flex-col items-center justify-center w-full h-screen snap-start relative overflow-hidden"
+          "flex flex-col items-center justify-center w-full h-screen snap-start relative overflow-hidden px-4"
         )}
         style={{
           background: "linear-gradient(180deg, #E6F2FF 0%, #FFFFFF 100%)",
@@ -25,12 +25,18 @@ export default function About() {
           width={600}
           height={300}
           className={cn(
-            "mt-11 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0"
+            "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0 w-full max-w-lg md:max-w-2xl opacity-30"
           )}
         />
-        <div className={cn("flex flex-col items-center relative z-10")}>
-          <p className={cn("text-2xl font-medium")}>하늘 국어</p>
-          <p className={cn("text-4xl font-medium text-[70px] text-[#2A338E]")}>
+        <div
+          className={cn("flex flex-col items-center relative z-10 text-center")}
+        >
+          <p className={cn("text-lg md:text-2xl font-medium")}>하늘 국어</p>
+          <p
+            className={cn(
+              "text-3xl md:text-5xl lg:text-7xl font-medium text-[#2A338E] mt-2"
+            )}
+          >
             상위 1%의 길을 열다
           </p>
         </div>
@@ -40,31 +46,45 @@ export default function About() {
       <section
         id="value"
         className={cn(
-          "flex flex-col items-center justify-center min-h-screen py-16 px-8 snap-start"
+          "flex flex-col items-center justify-center min-h-screen py-8 md:py-16 px-4 md:px-8 snap-start"
         )}
       >
         <Badge
           className={cn(
-            "py-2 px-10 text-white text-lg font-medium rounded-full shadow-lg bg-[#2A338E] mb-12"
+            "py-2 px-6 md:px-10 text-white text-base md:text-lg font-medium rounded-full shadow-lg bg-[#2A338E] mb-8 md:mb-12"
           )}
         >
           가치와 비전
         </Badge>
-        <div className={cn("flex flex-col gap-10 max-w-6xl")}>
+        <div className={cn("flex flex-col gap-6 md:gap-10 max-w-6xl w-full")}>
           {/* 스키마 형성 */}
-          <div className={cn("flex flex-row gap-10")}>
-            <Image
-              src="/schema.jpg"
-              alt="스키마 형성"
-              width={400}
-              height={300}
-              className={cn("object-cover")}
-            />
+          <div
+            className={cn(
+              "flex flex-col md:flex-row gap-6 md:gap-10 items-center"
+            )}
+          >
+            <div className={cn("w-full md:w-80 lg:w-96 flex-shrink-0")}>
+              <Image
+                src="/schema.jpg"
+                alt="스키마 형성"
+                width={400}
+                height={300}
+                className={cn("object-cover w-full h-48 md:h-60 rounded-lg")}
+              />
+            </div>
             <div className={cn("flex-1")}>
-              <h3 className={cn("text-2xl font-bold mb-4 text-gray-800")}>
+              <h3
+                className={cn(
+                  "text-xl md:text-2xl font-bold mb-3 md:mb-4 text-gray-800"
+                )}
+              >
                 스키마 형성
               </h3>
-              <p className={cn("text-gray-600 leading-relaxed text-base")}>
+              <p
+                className={cn(
+                  "text-gray-600 leading-relaxed text-sm md:text-base"
+                )}
+              >
                 더 이상 문과라고 과학을 공부하지 않아도 되고, 이과라고 사회를
                 공부하지 않아도 되는 시대가 아닙니다. 시대가 요구하는 인재는
                 &lsquo;인문학적 소양을 갖춘 공학도&rsquo;, &lsquo;코딩을 제대로
@@ -77,19 +97,35 @@ export default function About() {
           </div>
 
           {/* 수행 독서 */}
-          <div className={cn("flex flex-row gap-10")}>
-            <Image
-              src="/reading.jpg"
-              alt="수행 독서"
-              width={400}
-              height={300}
-              className={cn("object-cover")}
-            />
-            <div className={cn("flex-1")}>
-              <h3 className={cn("text-2xl font-bold mb-4 text-gray-800")}>
+          <div
+            className={cn(
+              "flex flex-col md:flex-row gap-6 md:gap-10 items-center"
+            )}
+          >
+            <div
+              className={cn("w-full md:w-80 lg:w-96 flex-shrink-0 md:order-2")}
+            >
+              <Image
+                src="/reading.jpg"
+                alt="수행 독서"
+                width={400}
+                height={300}
+                className={cn("object-cover w-full h-48 md:h-60 rounded-lg")}
+              />
+            </div>
+            <div className={cn("flex-1 md:order-1")}>
+              <h3
+                className={cn(
+                  "text-xl md:text-2xl font-bold mb-3 md:mb-4 text-gray-800"
+                )}
+              >
                 수행 독서
               </h3>
-              <p className={cn("text-gray-600 leading-relaxed text-base")}>
+              <p
+                className={cn(
+                  "text-gray-600 leading-relaxed text-sm md:text-base"
+                )}
+              >
                 학생부가 축소되고 있는 현재 가장 중요한 평가 교과별 세부능력
                 특기사항(세특)입니다. 그리고 세특에서 가장 중요한 것이
                 &lsquo;수행 독서&rsquo;입니다. 단순히 책을 읽기만 하는 것이
@@ -101,19 +137,33 @@ export default function About() {
           </div>
 
           {/* 국어 영재 양성 */}
-          <div className={cn("flex flex-row gap-10")}>
-            <Image
-              src="/education.jpg"
-              alt="국어 영재 양성"
-              width={400}
-              height={300}
-              className={cn("object-cover")}
-            />
+          <div
+            className={cn(
+              "flex flex-col md:flex-row gap-6 md:gap-10 items-center"
+            )}
+          >
+            <div className={cn("w-full md:w-80 lg:w-96 flex-shrink-0")}>
+              <Image
+                src="/education.jpg"
+                alt="국어 영재 양성"
+                width={400}
+                height={300}
+                className={cn("object-cover w-full h-48 md:h-60 rounded-lg")}
+              />
+            </div>
             <div className={cn("flex-1")}>
-              <h3 className={cn("text-2xl font-bold mb-4 text-gray-800")}>
+              <h3
+                className={cn(
+                  "text-xl md:text-2xl font-bold mb-3 md:mb-4 text-gray-800"
+                )}
+              >
                 국어 영재 양성
               </h3>
-              <p className={cn("text-gray-600 leading-relaxed text-base")}>
+              <p
+                className={cn(
+                  "text-gray-600 leading-relaxed text-sm md:text-base"
+                )}
+              >
                 서울대 국어교육 석사 이상의 연구진들로 구성된 컨
                 국어영재교육원에서 제작한 &lsquo;프리미엄 교재&rsquo;와 철저하게
                 준비한 수업 시스템으로 &lsquo;진짜&rsquo; 국어 영재를 키우고
@@ -129,26 +179,26 @@ export default function About() {
       <section
         id="goals"
         className={cn(
-          "flex flex-col items-center justify-center min-h-screen py-16 px-8 bg-[#E7F3FF] w-full snap-start"
+          "flex flex-col items-center justify-center min-h-screen py-8 md:py-16 px-4 md:px-8 bg-[#E7F3FF] w-full snap-start"
         )}
       >
         <Badge
           className={cn(
-            "py-2 px-10 text-white text-lg font-medium rounded-full shadow-lg bg-[#2A338E] mb-12"
+            "py-2 px-6 md:px-10 text-white text-base md:text-lg font-medium rounded-full shadow-lg bg-[#2A338E] mb-8 md:mb-12"
           )}
         >
           학습목표
         </Badge>
-        <div className={cn("flex flex-col gap-8 max-w-4xl w-full")}>
+        <div className={cn("flex flex-col gap-6 md:gap-8 max-w-4xl w-full")}>
           {/* 목표 1 */}
           <div
             className={cn(
-              "flex flex-col items-center justify-center relative h-[346px] bg-white rounded-lg text-center overflow-hidden"
+              "flex flex-col items-center justify-center relative min-h-[200px] md:min-h-[300px] lg:min-h-[346px] bg-white rounded-lg text-center overflow-hidden p-4 md:p-8"
             )}
           >
             <div
               className={cn(
-                "text-[400px] absolute -bottom-40 -left-0 font-bold text-[#E7F3FF] select-none"
+                "text-[150px] md:text-[250px] lg:text-[400px] absolute -bottom-16 md:-bottom-28 lg:-bottom-40 -left-0 font-bold text-[#E7F3FF] select-none"
               )}
             >
               1
@@ -156,11 +206,11 @@ export default function About() {
             <div className={cn("relative z-10")}>
               <p
                 className={cn(
-                  "text-gray-800 leading-relaxed text-2xl font-medium px-8"
+                  "text-gray-800 leading-relaxed text-base md:text-xl lg:text-2xl font-medium"
                 )}
               >
                 비문학 지문을 문장 단위로 읽으며 도출할 수 있는 정보를 생각하고
-                <br />
+                <br className="hidden md:block" />
                 자료를 활용하여 질문에 맞게 논리적인 글쓰기를 할 수 있다.
               </p>
             </div>
@@ -169,12 +219,12 @@ export default function About() {
           {/* 목표 2 */}
           <div
             className={cn(
-              "flex flex-col items-center justify-center relative h-[346px] bg-white rounded-lg text-center overflow-hidden"
+              "flex flex-col items-center justify-center relative min-h-[200px] md:min-h-[300px] lg:min-h-[346px] bg-white rounded-lg text-center overflow-hidden p-4 md:p-8"
             )}
           >
             <div
               className={cn(
-                "text-[400px] absolute -bottom-40 -right-0 font-bold text-[#E7F3FF] select-none"
+                "text-[150px] md:text-[250px] lg:text-[400px] absolute -bottom-16 md:-bottom-28 lg:-bottom-40 -right-0 font-bold text-[#E7F3FF] select-none"
               )}
             >
               2
@@ -182,13 +232,13 @@ export default function About() {
             <div className={cn("relative z-10")}>
               <p
                 className={cn(
-                  "text-gray-800 leading-relaxed text-2xl font-medium px-8"
+                  "text-gray-800 leading-relaxed text-base md:text-xl lg:text-2xl font-medium"
                 )}
               >
                 교육과정 내의 모든 교과서 작품에 수록된 문학 작품을 읽어 문학이
-                <br />
+                <br className="hidden md:block" />
                 우리 삶과 맞닿아 있음을 이해하고, 삶에 적용해보는 자기표현적
-                <br />
+                <br className="hidden md:block" />
                 글쓰기를 할 수 있다.
               </p>
             </div>
@@ -197,12 +247,12 @@ export default function About() {
           {/* 목표 3 */}
           <div
             className={cn(
-              "flex flex-col items-center justify-center relative h-[346px] bg-white rounded-lg text-center overflow-hidden"
+              "flex flex-col items-center justify-center relative min-h-[200px] md:min-h-[300px] lg:min-h-[346px] bg-white rounded-lg text-center overflow-hidden p-4 md:p-8"
             )}
           >
             <div
               className={cn(
-                "text-[400px] absolute -bottom-40 -left-0 font-bold text-[#E7F3FF] select-none"
+                "text-[150px] md:text-[250px] lg:text-[400px] absolute -bottom-16 md:-bottom-28 lg:-bottom-40 -left-0 font-bold text-[#E7F3FF] select-none"
               )}
             >
               3
@@ -210,13 +260,13 @@ export default function About() {
             <div className={cn("relative z-10")}>
               <p
                 className={cn(
-                  "text-gray-800 leading-relaxed text-2xl font-medium px-8"
+                  "text-gray-800 leading-relaxed text-base md:text-xl lg:text-2xl font-medium"
                 )}
               >
                 우리 삶에서 실제로 일어나는 시사 문제에 대해 생각해보는
-                <br />
+                <br className="hidden md:block" />
                 사회참여적 글쓰기와 수행 독서를 통해 개념은 지식과 진로를
-                <br />
+                <br className="hidden md:block" />
                 연관지어 보는 진로 연계글쓰기를 할 수 있다.
               </p>
             </div>
