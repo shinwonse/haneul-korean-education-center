@@ -7,6 +7,7 @@ export default function About() {
     <div className={cn("flex flex-col items-center")}>
       {/* 타이틀 */}
       <section
+        id="intro"
         className={cn(
           "flex flex-col items-center justify-center w-full h-[840px] relative"
         )}
@@ -32,7 +33,10 @@ export default function About() {
       </section>
 
       {/* 가치와 비전 */}
-      <section className={cn("flex flex-col items-center py-16 px-8")}>
+      <section
+        id="value"
+        className={cn("flex flex-col items-center py-16 px-8")}
+      >
         <Badge
           className={cn(
             "py-2 px-10 text-white text-lg font-medium rounded-full shadow-lg bg-[#2A338E] mb-12"
@@ -117,6 +121,7 @@ export default function About() {
 
       {/* 학습목표 */}
       <section
+        id="goals"
         className={cn(
           "flex flex-col items-center py-16 px-8 bg-[#E7F3FF] w-full"
         )}
