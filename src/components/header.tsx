@@ -73,7 +73,11 @@ export function Header() {
           </Link>
 
           {/* Navigation - Center */}
-          <nav className={cn("flex items-center justify-center gap-20")}>
+          <nav
+            className={cn(
+              "flex items-center justify-center gap-8 lg:gap-16 xl:gap-20"
+            )}
+          >
             {NAVIGATION_LINKS.map((link) => (
               <div
                 key={link.href}
@@ -90,7 +94,7 @@ export function Header() {
                 <Link
                   href={link.href}
                   className={cn(
-                    "font-medium text-center text-base transition-all duration-200",
+                    "font-medium text-center text-base transition-all duration-200 whitespace-nowrap",
                     "hover:text-[#2A338E] hover:text-lg"
                   )}
                 >
@@ -152,21 +156,19 @@ export function Header() {
           <Button
             variant="ghost"
             size="sm"
-            className={cn("p-2")}
+            className={cn("p-3 min-w-[44px] min-h-[44px]")}
             onClick={toggleMobileMenu}
             aria-label="메뉴 열기"
           >
             <div
               className={cn(
-                "w-6 h-6 flex flex-col justify-center items-center"
+                "w-6 h-6 flex flex-col justify-center items-center relative"
               )}
             >
               <span
                 className={cn(
-                  "block w-5 h-0.5 bg-current transition-all duration-300",
-                  isMobileMenuOpen
-                    ? "rotate-45 translate-y-1"
-                    : "-translate-y-1"
+                  "block w-5 h-0.5 bg-current transition-all duration-300 absolute",
+                  isMobileMenuOpen ? "rotate-45" : "-translate-y-1.5"
                 )}
               />
               <span
@@ -177,10 +179,8 @@ export function Header() {
               />
               <span
                 className={cn(
-                  "block w-5 h-0.5 bg-current transition-all duration-300",
-                  isMobileMenuOpen
-                    ? "-rotate-45 -translate-y-1"
-                    : "translate-y-1"
+                  "block w-5 h-0.5 bg-current transition-all duration-300 absolute",
+                  isMobileMenuOpen ? "-rotate-45" : "translate-y-1.5"
                 )}
               />
             </div>
