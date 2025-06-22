@@ -46,7 +46,7 @@ export default function About() {
       <section
         id="value"
         className={cn(
-          "flex flex-col items-center justify-center min-h-screen py-8 md:py-16 px-4 md:px-8 snap-start"
+          "flex flex-col items-center justify-center min-h-screen py-16 md:py-24 px-4 md:px-8 snap-start"
         )}
       >
         <Badge
@@ -102,9 +102,7 @@ export default function About() {
               "flex flex-col md:flex-row gap-6 md:gap-10 items-center"
             )}
           >
-            <div
-              className={cn("w-full md:w-80 lg:w-96 flex-shrink-0 md:order-2")}
-            >
+            <div className={cn("w-full md:w-80 lg:w-96 flex-shrink-0")}>
               <Image
                 src="/reading.jpg"
                 alt="수행 독서"
@@ -113,7 +111,7 @@ export default function About() {
                 className={cn("object-cover w-full h-48 md:h-60 rounded-lg")}
               />
             </div>
-            <div className={cn("flex-1 md:order-1")}>
+            <div className={cn("flex-1")}>
               <h3
                 className={cn(
                   "text-xl md:text-2xl font-bold mb-3 md:mb-4 text-gray-800"
@@ -179,7 +177,7 @@ export default function About() {
       <section
         id="goals"
         className={cn(
-          "flex flex-col items-center justify-center min-h-screen py-8 md:py-16 px-4 md:px-8 bg-[#E7F3FF] w-full snap-start"
+          "flex flex-col items-center justify-center min-h-screen py-16 md:py-24 px-4 md:px-8 bg-[#E7F3FF] w-full snap-start"
         )}
       >
         <Badge
