@@ -22,7 +22,7 @@ export default function Home() {
 
         {/* Video section */}
         <div className="w-full max-w-4xl mx-auto">
-          <div className="relative aspect-video bg-gray-200 rounded-lg overflow-hidden shadow-lg">
+          <div className="relative aspect-video bg-gray-200 overflow-hidden shadow-lg">
             <video
               className="w-full h-full object-cover"
               autoPlay
