@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Admission() {
   return (
-    <div className={cn("flex flex-col items-center")}>
+    <div className={cn("flex flex-col items-center max-w-4xl mx-auto p-6")}>
       {/* 테스트 예약, 입학 테스트 진행, 반 편성 */}
       <div>
         <Badge
