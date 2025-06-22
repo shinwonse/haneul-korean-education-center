@@ -109,20 +109,20 @@ export default function About() {
           {/* 목표 1 */}
           <div
             className={cn(
-              "flex flex-col items-center justify-center relative h-[346px] bg-white rounded-lg text-center"
+              "flex flex-col items-center justify-center relative h-[346px] bg-white rounded-lg text-center overflow-hidden"
             )}
           >
             <div
               className={cn(
-                "absolute top-4 left-4 text-8xl font-bold text-gray-200 select-none"
+                "text-[400px] absolute -bottom-40 -left-0 font-bold text-[#E7F3FF] select-none"
               )}
             >
               1
             </div>
-            <div className={cn("relative z-10 pl-24")}>
+            <div className={cn("relative z-10")}>
               <p
                 className={cn(
-                  "text-gray-800 leading-relaxed text-2xl font-medium"
+                  "text-gray-800 leading-relaxed text-2xl font-medium px-8"
                 )}
               >
                 비문학 지문을 문장 단위로 읽으며 도출할 수 있는 정보를 생각하고
@@ -135,20 +135,20 @@ export default function About() {
           {/* 목표 2 */}
           <div
             className={cn(
-              "flex flex-col items-center justify-center relative h-[346px] bg-white rounded-lg text-center"
+              "flex flex-col items-center justify-center relative h-[346px] bg-white rounded-lg text-center overflow-hidden"
             )}
           >
             <div
               className={cn(
-                "absolute top-4 left-4 text-8xl font-bold text-gray-200 select-none"
+                "text-[400px] absolute -bottom-40 -right-0 font-bold text-[#E7F3FF] select-none"
               )}
             >
               2
             </div>
-            <div className={cn("relative z-10 pl-24")}>
+            <div className={cn("relative z-10")}>
               <p
                 className={cn(
-                  "text-gray-800 leading-relaxed text-2xl font-medium"
+                  "text-gray-800 leading-relaxed text-2xl font-medium px-8"
                 )}
               >
                 교육과정 내의 모든 교과서 작품에 수록된 문학 작품을 읽어 문학이
@@ -163,20 +163,20 @@ export default function About() {
           {/* 목표 3 */}
           <div
             className={cn(
-              "flex flex-col items-center justify-center relative h-[346px] bg-white rounded-lg text-center"
+              "flex flex-col items-center justify-center relative h-[346px] bg-white rounded-lg text-center overflow-hidden"
             )}
           >
             <div
               className={cn(
-                "absolute top-4 left-4 text-8xl font-bold text-gray-200 select-none"
+                "text-[400px] absolute -bottom-40 -left-0 font-bold text-[#E7F3FF] select-none"
               )}
             >
               3
             </div>
-            <div className={cn("relative z-10 pl-24")}>
+            <div className={cn("relative z-10")}>
               <p
                 className={cn(
-                  "text-gray-800 leading-relaxed text-2xl font-medium"
+                  "text-gray-800 leading-relaxed text-2xl font-medium px-8"
                 )}
               >
                 우리 삶에서 실제로 일어나는 시사 문제에 대해 생각해보는
