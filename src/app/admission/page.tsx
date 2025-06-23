@@ -25,22 +25,31 @@ export default function Admission() {
         )}
       >
         {/* 테스트 예약 */}
-        <div className={cn('flex gap-8')}>
-          <div className={cn('w-20 h-20 flex items-center justify-center')}>
+        <div className={cn('flex gap-6 md:gap-8 w-full')}>
+          <div
+            className={cn(
+              'w-16 h-16 md:w-20 md:h-20 flex items-center justify-center flex-shrink-0',
+            )}
+          >
             <Image src="/net.png" alt="전화" width={64} height={64} />
           </div>
-          <div className={cn('flex flex-col gap-5')}>
+          <div className={cn('flex flex-col gap-3 md:gap-5 flex-1')}>
             <Badge
               className={cn(
-                'rounded-full shadow-lg bg-[#2A338E]',
-                'py-1 px-4 text-white text-lg font-medium',
+                'rounded-full shadow-lg bg-[#2A338E] self-start',
+                'py-1 px-3 md:px-4 text-white font-medium',
+                'text-sm md:text-lg min-w-[120px] md:min-w-[160px] text-center',
               )}
             >
-              <span className="text-xl font-semibold">테스트 예약</span>
+              <span className="text-sm md:text-xl font-semibold">
+                테스트 예약
+              </span>
             </Badge>
-            <div className={cn('text-gray-700')}>
-              <div className={cn('text-lg')}>- 대상 학년 : 중1 ~ 중3</div>
-              <div className={cn('text-lg')}>
+            <div className={cn('text-gray-700 space-y-1')}>
+              <div className={cn('text-base md:text-lg')}>
+                - 대상 학년 : 중1 ~ 중3
+              </div>
+              <div className={cn('text-base md:text-lg')}>
                 - 신청 방법 : 네이버 플레이스 예약 (공식 홈페이지, 공식
                 인스타그램 참고)
               </div>
@@ -49,22 +58,31 @@ export default function Admission() {
         </div>
 
         {/* 입학 테스트 진행 */}
-        <div className={cn('flex gap-8')}>
-          <div className={cn('w-20 h-20 flex items-center justify-center')}>
+        <div className={cn('flex gap-6 md:gap-8 w-full')}>
+          <div
+            className={cn(
+              'w-16 h-16 md:w-20 md:h-20 flex items-center justify-center flex-shrink-0',
+            )}
+          >
             <Image src="/test.png" alt="테스트" width={64} height={64} />
           </div>
-          <div className={cn('flex flex-col gap-5')}>
+          <div className={cn('flex flex-col gap-3 md:gap-5 flex-1')}>
             <Badge
               className={cn(
-                'rounded-full shadow-lg bg-[#2A338E]',
-                'py-1 px-4 text-white text-lg font-medium',
+                'rounded-full shadow-lg bg-[#2A338E] self-start',
+                'py-1 px-3 md:px-4 text-white font-medium',
+                'text-sm md:text-lg min-w-[120px] md:min-w-[200px] text-center',
               )}
             >
-              <span className="text-xl font-semibold">입학 테스트 진행</span>
+              <span className="text-sm md:text-xl font-semibold">
+                입학 테스트 진행
+              </span>
             </Badge>
-            <div className={cn('text-gray-700')}>
-              <div className={cn('text-lg')}>- 30문항 60분 진행</div>
-              <div className={cn('text-lg')}>
+            <div className={cn('text-gray-700 space-y-1')}>
+              <div className={cn('text-base md:text-lg')}>
+                - 30문항 60분 진행
+              </div>
+              <div className={cn('text-base md:text-lg')}>
                 - 테스트 후 1~2일 뒤 상세 성적표 기반 상담 진행
               </div>
             </div>
@@ -72,24 +90,29 @@ export default function Admission() {
         </div>
 
         {/* 반 편성 */}
-        <div className={cn('flex gap-8')}>
-          <div className={cn('w-20 h-20 flex items-center justify-center')}>
+        <div className={cn('flex gap-6 md:gap-8 w-full')}>
+          <div
+            className={cn(
+              'w-16 h-16 md:w-20 md:h-20 flex items-center justify-center flex-shrink-0',
+            )}
+          >
             <Image src="/people.png" alt="사람들" width={64} height={64} />
           </div>
-          <div className={cn('flex flex-col gap-5')}>
+          <div className={cn('flex flex-col gap-3 md:gap-5 flex-1')}>
             <Badge
               className={cn(
-                'rounded-full shadow-lg bg-[#2A338E]',
-                'py-1 px-4 text-white text-lg font-medium',
+                'rounded-full shadow-lg bg-[#2A338E] self-start',
+                'py-1 px-3 md:px-4 text-white font-medium',
+                'text-sm md:text-lg min-w-[120px] md:min-w-[140px] text-center',
               )}
             >
-              <span className="text-xl font-semibold">반 편성</span>
+              <span className="text-sm md:text-xl font-semibold">반 편성</span>
             </Badge>
-            <div className={cn('text-gray-700')}>
-              <div className={cn('text-lg')}>
+            <div className={cn('text-gray-700 space-y-1')}>
+              <div className={cn('text-base md:text-lg')}>
                 - 프리미엄반 : 입학 테스트 결과 상위 3% (테도 접수 반영)
               </div>
-              <div className={cn('text-lg')}>
+              <div className={cn('text-base md:text-lg')}>
                 - 정규반 : 상담 진행 후 개별 안내
               </div>
             </div>
