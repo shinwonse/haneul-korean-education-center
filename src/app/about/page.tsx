@@ -16,9 +16,9 @@ export default function About() {
       <section
         id="intro"
         className={cn(
-          'flex flex-col items-center justify-center w-full snap-start relative overflow-hidden',
+          'flex flex-col w-full snap-start relative overflow-hidden',
           'px-4 sm:px-6 md:px-8',
-          'h-[100dvh] md:h-screen min-h-[600px]',
+          'h-[calc(100dvh-70px)] md:h-[calc(100vh-70px)]',
         )}
         style={{
           background: 'linear-gradient(180deg, #E6F2FF 0%, #FFFFFF 100%)',
@@ -31,19 +31,25 @@ export default function About() {
           width={600}
           height={300}
           className={cn(
-            'absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0 opacity-30',
+            'absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0',
             'w-[280px] sm:w-[320px] md:w-full max-w-lg lg:max-w-2xl',
           )}
         />
         <div
-          className={cn('flex flex-col items-center relative z-10 text-center')}
+          className={cn(
+            'flex flex-col items-center relative z-10 text-center my-auto',
+          )}
         >
-          <p className={cn('text-base sm:text-lg md:text-2xl font-medium')}>
+          <p
+            className={cn(
+              'text-base sm:text-lg md:text-2xl font-gmarket-medium',
+            )}
+          >
             하늘 국어
           </p>
           <p
             className={cn(
-              'font-medium text-[#2A338E] mt-2',
+              'font-gmarket-medium text-[#2A338E] mt-2',
               'text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl',
             )}
           >
