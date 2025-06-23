@@ -6,9 +6,7 @@ export default function About() {
   return (
     <div
       className={cn(
-        "scroll-smooth snap-y snap-mandatory overflow-y-scroll touch-pan-y",
-        "h-screen md:h-screen",
-        "min-h-[100dvh] md:min-h-screen"
+        "scroll-smooth snap-y snap-mandatory touch-pan-y"
       )}
       style={{
         scrollSnapType: "y mandatory",
