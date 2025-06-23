@@ -4,25 +4,17 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <div
-      className={cn('scroll-smooth snap-y snap-mandatory touch-pan-y')}
-      style={{
-        scrollSnapType: 'y mandatory',
-        scrollBehavior: 'smooth',
-        WebkitOverflowScrolling: 'touch',
-      }}
-    >
+    <div>
       {/* 타이틀 */}
       <section
         id="intro"
         className={cn(
-          'flex flex-col w-full snap-start relative overflow-hidden',
+          'flex flex-col w-full relative overflow-hidden',
           'px-4 sm:px-6 md:px-8',
           'h-[calc(100dvh-70px)] md:h-[calc(100vh-70px)]',
         )}
         style={{
           background: 'linear-gradient(180deg, #E6F2FF 0%, #FFFFFF 100%)',
-          scrollSnapAlign: 'start',
         }}
       >
         <Image
@@ -62,14 +54,11 @@ export default function About() {
       <section
         id="value"
         className={cn(
-          'flex flex-col items-center justify-center snap-start',
+          'flex flex-col items-center justify-center',
           'min-h-[100dvh] md:min-h-screen',
           'py-12 sm:py-16 md:py-20 lg:py-24',
           'px-4 sm:px-6 md:px-8 lg:px-12',
         )}
-        style={{
-          scrollSnapAlign: 'start',
-        }}
       >
         <Badge
           className={cn(
@@ -229,14 +218,11 @@ export default function About() {
       <section
         id="goals"
         className={cn(
-          'flex flex-col items-center justify-center bg-[#E7F3FF] w-full snap-start',
+          'flex flex-col items-center justify-center bg-[#E7F3FF] w-full',
           'min-h-[100dvh] md:min-h-screen',
           'py-12 sm:py-16 md:py-20 lg:py-24',
           'px-4 sm:px-6 md:px-8 lg:px-12',
         )}
-        style={{
-          scrollSnapAlign: 'start',
-        }}
       >
         <Badge
           className={cn(
