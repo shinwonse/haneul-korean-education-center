@@ -67,7 +67,7 @@ export default function Curriculum() {
         <div className={cn('flex justify-center mb-8')}>
           <Badge
             className={cn(
-              'text-white font-medium rounded-full shadow-lg bg-[#2A338E] py-2 px-4 sm:px-6 md:px-8 lg:px-10 text-sm sm:text-base md:text-lg mb-4 sm:mb-8 md:mb-10 lg:mb-12',
+              'text-white font-medium rounded-full shadow-lg bg-[#2A338E] py-2 px-4 sm:px-6 md:px-8 lg:px-10 text-sm sm:text-base md:text-lg mb-4',
             )}
             style={{ backgroundColor: '#2A338E' }}
           >
@@ -137,7 +137,7 @@ export default function Curriculum() {
         <div className={cn('flex justify-center mb-8')}>
           <Badge
             className={cn(
-              'text-white font-medium rounded-full shadow-lg bg-[#2A338E] py-2 px-4 sm:px-6 md:px-8 lg:px-10 text-sm sm:text-base md:text-lg mb-6 sm:mb-8 md:mb-10 lg:mb-12',
+              'text-white font-medium rounded-full shadow-lg bg-[#2A338E] py-2 px-4 sm:px-6 md:px-8 lg:px-10 text-sm sm:text-base md:text-lg mb-4',
             )}
             style={{ backgroundColor: '#2A338E' }}
           >
