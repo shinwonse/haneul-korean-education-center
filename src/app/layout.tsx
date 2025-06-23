@@ -14,8 +14,28 @@ const stagewiseConfig = {
 };
 
 export const metadata: Metadata = {
-  title: '하늘국어영재원',
-  description: '하늘국어영재원',
+  title: '하늘 국어영재원',
+  description: '하늘 국어영재원 - 상위 1%의 길을 열다',
+  openGraph: {
+    title: '하늘 국어영재원',
+    description: '하늘 국어영재원 - 상위 1%의 길을 열다',
+    type: 'website',
+    siteName: '하늘 국어영재원',
+    images: [
+      {
+        url: '/opengraph.jpg',
+        width: 1200,
+        height: 630,
+        alt: '하늘 국어영재원',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '하늘국어영재원',
+    description: '하늘 국어영재원 - 상위 1%의 길을 열다',
+    images: ['/opengraph.jpg'],
+  },
 };
 
 export default function RootLayout({
