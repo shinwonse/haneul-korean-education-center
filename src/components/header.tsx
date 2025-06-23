@@ -94,7 +94,7 @@ export function Header() {
                 <Link
                   href={link.href}
                   className={cn(
-                    "font-medium text-center text-base transition-all duration-200 whitespace-nowrap",
+                    "font-medium font-gmarket-medium text-center text-base transition-all duration-200 whitespace-nowrap",
                     "hover:text-[#2A338E] hover:text-lg"
                   )}
                 >
