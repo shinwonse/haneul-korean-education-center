@@ -135,19 +135,19 @@ export default function Admission() {
               <tr>
                 <td
                   className={cn(
-                    'p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap',
+                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
                   )}
                 ></td>
                 <td
                   className={cn(
-                    'p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap',
+                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
                   )}
                 >
                   복습 테스트
                 </td>
                 <td
                   className={cn(
-                    'p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap',
+                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
                   )}
                 >
                   10분
@@ -165,21 +165,21 @@ export default function Admission() {
                 <td
                   rowSpan={2}
                   className={cn(
-                    'p-4 text-center font-semibold border-r border-gray-300 bg-white border-b border-gray-300 align-middle whitespace-nowrap',
+                    'p-4 text-center font-semibold border-r bg-white border-b border-gray-300 align-middle whitespace-nowrap',
                   )}
                 >
                   1교시
                 </td>
                 <td
                   className={cn(
-                    'p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap',
+                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
                   )}
                 >
                   비문학
                 </td>
                 <td
                   className={cn(
-                    'p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap',
+                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
                   )}
                 >
                   50분
@@ -197,14 +197,14 @@ export default function Admission() {
               <tr>
                 <td
                   className={cn(
-                    'p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap',
+                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
                   )}
                 >
                   개별 피드백
                 </td>
                 <td
                   className={cn(
-                    'p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap',
+                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
                   )}
                 >
                   10분
@@ -221,21 +221,21 @@ export default function Admission() {
               <tr>
                 <td
                   className={cn(
-                    'p-4 text-center font-semibold border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap',
+                    'p-4 text-center font-semibold border-r bg-white border-b border-gray-300 whitespace-nowrap',
                   )}
                 >
                   2교시
                 </td>
                 <td
                   className={cn(
-                    'p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap',
+                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
                   )}
                 >
                   문학
                 </td>
                 <td
                   className={cn(
-                    'p-4 text-center border-r border-gray-300 bg-white border-b border-gray-300 whitespace-nowrap',
+                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
                   )}
                 >
                   50분
