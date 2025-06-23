@@ -22,7 +22,7 @@ export function Footer() {
         </Link>
 
         <Link
-          href="https://m.blog.naver.com/PostList.naver?blogId=reong202"
+          href="https://blog.naver.com/haneuledu-"
           target="_blank"
           className={cn(
             'w-20 h-20 rounded-full bg-[#2A338E] shadow-[2px_3px_10px_rgba(0,0,0,0.51)] flex items-center justify-center',
