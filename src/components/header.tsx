@@ -19,8 +19,8 @@ const NAVIGATION_LINKS = [
     label: '교육 과정',
     href: '/curriculum',
     submenus: [
-      { label: '월별 스케줄', href: '/curriculum#elementary' },
-      { label: '수업 구성', href: '/curriculum#middle' },
+      { label: '월별 스케줄', href: '/curriculum#schedule' },
+      { label: '수업 구성', href: '/curriculum#structure' },
     ],
   },
   {
