@@ -9,8 +9,10 @@ export default function Admission() {
       <div>
         <Badge
           className={cn(
-            "rounded-full shadow-lg bg-[#2A338E]",
-            "py-3 px-8 text-white text-lg font-medium"
+            "font-gmarket-medium text-white rounded-full shadow-lg bg-[#2A338E]",
+            "py-2 px-4 sm:px-6 md:px-8 lg:px-10",
+            "text-sm sm:text-base md:text-lg",
+            "mb-4 sm:mb-8 md:mb-10 lg:mb-12"
           )}
         >
           입학 안내
@@ -34,8 +36,8 @@ export default function Admission() {
               <span className="text-xl font-semibold">테스트 예약</span>
             </Badge>
             <div className="text-gray-700">
-              <div className="text-lg">- 중1 ~ 중3</div>
-              <div className="text-lg">- 전화 및 블로그</div>
+              <div className="text-lg">- 대상 학년 : 중1 ~ 중3</div>
+              <div className="text-lg">- 신청 방법 : 네이버 플레이스 예약 (공식 홈페이지, 공식 인스타그램 참고)</div>
             </div>
           </div>
         </div>
@@ -56,7 +58,6 @@ export default function Admission() {
             </Badge>
             <div className="text-gray-700">
               <div className="text-lg">- 30문항 60분 진행</div>
-              <div className="text-lg">- 무료 (2025 기준)</div>
               <div className="text-lg">
                 - 테스트 후 1~2일 뒤 상세 성적표 기반 상담 진행
               </div>
@@ -80,9 +81,9 @@ export default function Admission() {
             </Badge>
             <div className="text-gray-700">
               <div className="text-lg">
-                프리미엄반: 입학 테스트 결과 상위 10% (테도 접수 반영)
+               -  프리미엄반 : 입학 테스트 결과 상위 3% (테도 접수 반영)
               </div>
-              <div className="text-lg">정규반: 상담 진행 후 개별 안내</div>
+              <div className="text-lg">- 정규반 : 상담 진행 후 개별 안내</div>
             </div>
           </div>
         </div>
