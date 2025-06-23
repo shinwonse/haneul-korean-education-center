@@ -12,7 +12,6 @@ export default function Admission() {
             'font-gmarket-medium text-white rounded-full shadow-lg bg-[#2A338E]',
             'py-2 px-4 sm:px-6 md:px-8 lg:px-10',
             'text-sm sm:text-base md:text-lg',
-            'mb-4 sm:mb-8 md:mb-10 lg:mb-12',
           )}
         >
           입학 안내
@@ -101,8 +100,10 @@ export default function Admission() {
       {/* 수업 */}
       <div className={cn('flex flex-col items-start w-full max-w-4xl mt-16')}>
         <div className={cn('flex items-center gap-4 mb-8')}>
-          <div className={cn('w-2 h-12 bg-[#2A338E]')}></div>
-          <h2 className={cn('text-2xl font-bold text-[#2A338E]')}>수업</h2>
+          <div className={cn('w-3 h-8 bg-[#2A338E]')}></div>
+          <h2 className={cn('text-2xl font-gmarket-bold text-[#2A338E]')}>
+            수업
+          </h2>
         </div>
 
         {/* 수업 표 */}
@@ -284,8 +285,8 @@ export default function Admission() {
       {/* 개별 맞춤형 관리 */}
       <div className={cn('flex flex-col items-start w-full max-w-4xl mt-16')}>
         <div className={cn('flex items-center gap-4 mb-8')}>
-          <div className={cn('w-2 h-12 bg-[#2A338E]')}></div>
-          <h2 className={cn('text-2xl font-bold text-[#2A338E]')}>
+          <div className={cn('w-3 h-8 bg-[#2A338E]')}></div>
+          <h2 className={cn('text-2xl font-gmarket-bold text-[#2A338E]')}>
             개별 맞춤형 관리
           </h2>
         </div>
