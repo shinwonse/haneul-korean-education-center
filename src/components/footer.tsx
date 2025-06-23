@@ -38,11 +38,11 @@ export function Footer() {
             "w-20 h-20 rounded-full bg-[#2A338E] shadow-[2px_3px_10px_rgba(0,0,0,0.51)] flex items-center justify-center"
           )}
         >
-          <Image src="/band.png" alt="band" width={40} height={40} />
+          <Image src="/band.png" alt="band" width={60} height={40} />
         </Link>
       </div>
       <div>
-        <p className="text-white text-xs">ⓒ Binggrae all rights reserved.</p>
+        <p className="text-white text-xs">ⓒ haneuledu all rights reserved.</p>
       </div>
     </footer>
   );
