@@ -2,11 +2,12 @@ import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <>
+      <div className="min-h-screen flex flex-col">
       {/* Main content area */}
-      <main className="flex-1 flex flex-col items-center justify-center px-4 py-8">
+      <div className="flex-1 flex flex-col items-center justify-center px-4 py-8 py-10">
         {/* Header text */}
-        <div className="text-center mb-8">
+        <div className="flex flex-col gap-4 text-center mb-8">
           <h1 className="font-gmarket-light text-lg text-gray-600 mb-2">
             프리미엄 국어 영재 교육 시스템
           </h1>
@@ -35,9 +36,9 @@ export default function Home() {
             </video>
           </div>
         </div>
-      </main>
-
+        </div>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
