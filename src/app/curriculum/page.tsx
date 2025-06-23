@@ -159,25 +159,25 @@ export default function Curriculum() {
               className="p-4 rounded-lg mb-4 flex justify-between items-center"
               style={{ backgroundColor: "#E7F3FF" }}
             >
-              <h3 className="text-lg font-semibold text-gray-800">1교시</h3>
-              <span className="font-medium" style={{ color: "#2A338E" }}>
+              <h3 className="text-lg font-gmarket-medium text-gray-800">1교시</h3>
+              <span className="font-gmarket-medium" style={{ color: "#2A338E" }}>
                 비문학 세부 구성
               </span>
             </div>
             <div className="space-y-3">
               <div className="flex border-b border-gray-200 pb-3">
-                <div className="w-48 font-medium text-gray-700">
+                <div className="w-48 font-medium">
                   STEP1 ~ STEP3 :
                 </div>
-                <div className="text-gray-600">지문 읽기 훈련</div>
+                <div>지문 읽기 훈련</div>
               </div>
               <div className="flex border-b border-gray-200 pb-3">
-                <div className="w-48 font-medium text-gray-700">STEP4 :</div>
-                <div className="text-gray-600">생각의 확장 (논리적 글쓰기)</div>
+                <div className="w-48 font-medium">STEP4 :</div>
+                <div>생각의 확장 (논리적 글쓰기)</div>
               </div>
               <div className="flex">
-                <div className="w-48 font-medium text-gray-700">스키마 :</div>
-                <div className="text-gray-600">지문 관련 심화 배경지식</div>
+                <div className="w-48 font-medium">스키마 :</div>
+                <div>지문 관련 심화 배경지식</div>
               </div>
             </div>
           </Card>
@@ -191,29 +191,29 @@ export default function Curriculum() {
               className="p-4 rounded-lg mb-4 flex justify-between items-center"
               style={{ backgroundColor: "#E7F3FF" }}
             >
-              <h3 className="text-lg font-semibold text-gray-800">2교시</h3>
-              <span className="font-medium" style={{ color: "#2A338E" }}>
+              <h3 className="text-lg font-gmarket-medium text-gray-800">2교시</h3>
+              <span className="font-gmarket-medium" style={{ color: "#2A338E" }}>
                 문학 세부 구성
               </span>
             </div>
             <div className="space-y-3">
               <div className="flex border-b border-gray-200 pb-3">
-                <div className="w-48 font-medium text-gray-700">
+                <div className="w-48 font-medium">
                   STEP1 ~ STEP3 :
                 </div>
-                <div className="text-gray-600">
+                <div>
                   작품 감상 훈련 + 문학 개념어 적용
                 </div>
               </div>
               <div className="flex border-b border-gray-200 pb-3">
-                <div className="w-48 font-medium text-gray-700">STEP4 :</div>
-                <div className="text-gray-600">
+                <div className="w-48 font-medium">STEP4 :</div>
+                <div>
                   생각의 확장 (자기 표현적 글쓰기)
                 </div>
               </div>
               <div className="flex">
-                <div className="w-48 font-medium text-gray-700">스키마 :</div>
-                <div className="text-gray-600">
+                <div className="w-48 font-medium">스키마 :</div>
+                <div>
                   문학사적 지식, 작가의 작품 세계 탐구
                 </div>
               </div>
@@ -229,33 +229,33 @@ export default function Curriculum() {
               className="p-4 rounded-lg mb-4 flex justify-between items-center"
               style={{ backgroundColor: "#E7F3FF" }}
             >
-              <h3 className="text-lg font-semibold text-gray-800">3교시</h3>
-              <span className="font-medium" style={{ color: "#2A338E" }}>
+              <h3 className="text-lg font-gmarket-medium text-gray-800">3교시</h3>
+              <span className="font-gmarket-medium" style={{ color: "#2A338E" }}>
                 주차별 구성
               </span>
             </div>
             <div className="space-y-3">
               <div className="flex border-b border-gray-200 pb-3">
-                <div className="w-24 font-medium text-gray-700">1주차</div>
-                <div className="text-gray-600">NIE 시사 탐구 논술</div>
+                <div className="w-24 font-medium">1주차</div>
+                <div>NIE 시사 탐구 논술</div>
               </div>
               <div className="flex border-b border-gray-200 pb-3">
-                <div className="w-24 font-medium text-gray-700">2주차</div>
-                <div className="text-gray-600">
+                <div className="w-24 font-medium">2주차</div>
+                <div>
                   주제별 독서 토론 (수행 독서)
                 </div>
               </div>
               <div className="flex border-b border-gray-200 pb-3">
-                <div className="w-24 font-medium text-gray-700">3주차</div>
-                <div className="text-gray-600">주제별 독서 비평문 작성</div>
+                <div className="w-24 font-medium">3주차</div>
+                <div>주제별 독서 비평문 작성</div>
               </div>
               <div className="flex border-b border-gray-200 pb-3">
-                <div className="w-24 font-medium text-gray-700">4주차</div>
-                <div className="text-gray-600">정기고사 / 다음 선정 도서 안내</div>
+                <div className="w-24 font-medium">4주차</div>
+                <div>정기고사 / 다음 선정 도서 안내</div>
               </div>
               <div className="flex">
-                <div className="w-24 font-medium text-gray-700">5주차</div>
-                <div className="text-gray-600">
+                <div className="w-24 font-medium">5주차</div>
+                <div>
                   국어 영재 프로그램
                 </div>
               </div>
