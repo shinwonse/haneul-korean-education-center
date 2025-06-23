@@ -5,8 +5,13 @@ import '@fontsource/pretendard/300.css'; // Light
 import '@fontsource/pretendard/500.css'; // Medium
 import '@fontsource/pretendard/600.css'; // SemiBold
 import '@fontsource/pretendard/700.css'; // Bold
+import { StagewiseToolbar } from '@stagewise/toolbar-next';
 import type { Metadata } from 'next';
 import './globals.css';
+
+const stagewiseConfig = {
+  plugins: [],
+};
 
 export const metadata: Metadata = {
   title: '하늘국어영재원',
@@ -23,6 +28,9 @@ export default function RootLayout({
       <body className={cn('antialiased h-full flex flex-col')}>
         <Header />
         <main className={cn('flex-1')}>{children}</main>
+        {process.env.NODE_ENV === 'development' && (
+          <StagewiseToolbar config={stagewiseConfig} />
+        )}
       </body>
     </html>
   );
