@@ -49,7 +49,7 @@ export function Header() {
   return (
     <header
       className={cn(
-        "px-4 sm:px-5 py-3 h-[70px] sticky top-0 z-50 w-full bg-white border-b"
+        "px-4 sm:px-5 py-3 h-[70px] sticky top-0 z-50 w-full bg-white"
       )}
     >
       <div className={cn("mx-auto")}>
