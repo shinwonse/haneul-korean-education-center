@@ -37,7 +37,7 @@ export default function About() {
               'text-base sm:text-lg md:text-2xl font-gmarket-medium',
             )}
           >
-            하늘 국어
+            하늘 국어영재원
           </p>
           <p
             className={cn(

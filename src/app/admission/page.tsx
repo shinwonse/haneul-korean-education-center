@@ -110,7 +110,7 @@ export default function Admission() {
             </Badge>
             <div className={cn('text-gray-700 space-y-1')}>
               <div className={cn('text-base md:text-lg')}>
-                - 프리미엄반 : 입학 테스트 결과 상위 3% (테도 접수 반영)
+                - 프리미엄반 : 입학 테스트 결과 상위 3% (태도 점수 반영)
               </div>
               <div className={cn('text-base md:text-lg')}>
                 - 정규반 : 상담 진행 후 개별 안내
@@ -349,7 +349,7 @@ export default function Admission() {
               3
             </div>
             <div className={cn('text-lg text-gray-800 leading-relaxed')}>
-              테스트 결과가 미흡할 경우 담임 강사의 자세 클리닉 진행
+              테스트 결과가 미흡할 경우 담임 강사의 자체 클리닉 진행
             </div>
           </div>
         </div>
