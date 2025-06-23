@@ -10,11 +10,11 @@ interface CurriculumItem {
 const curriculumData: CurriculumItem[] = [
   {
     month: "1월",
-    content: "인문, 철학 / 현대시 읽기 / 사설 테마 : 정치",
+    content: "인문학, 철학 / 현대시 읽기 / 사설 테마 : 정치",
   },
   {
     month: "2월",
-    content: "지구과학 / 현대시와 수필 읽기 / 사설 테마 : 우주/창공",
+    content: "지구과학 / 현대시와 수필 읽기 / 사설 테마 : 우주, 항공",
   },
   {
     month: "3월",
@@ -22,15 +22,15 @@ const curriculumData: CurriculumItem[] = [
   },
   {
     month: "4월",
-    content: "1학기 중간고사 내신 (4번 내신 대비 + 1번 직전 특강)",
+    content: "1학기 중간고사 내신 기간",
   },
   {
     month: "5월",
-    content: "생명과학(의료) / 현대소설과 극 읽기 / 사설 테마 : 의료",
+    content: "생명과학 / 현대소설과 극 읽기 / 사설 테마 : 의료",
   },
   {
     month: "6월",
-    content: "1학기 기말고사 내신 (4번 내신 대비 + 1번 직전 특강)",
+    content: "1학기 기말고사 내신 기간",
   },
   {
     month: "7월",
@@ -38,23 +38,23 @@ const curriculumData: CurriculumItem[] = [
   },
   {
     month: "8월",
-    content: "화학, 물리학, 공학 / 고전시가 읽기 / 사설 테마 : 인공 지능/기술",
+    content: "공학 / 고전시가 읽기 / 사설 테마 : 인공 지능",
   },
   {
     month: "9월",
-    content: "2학기 중간고사 내신 (4번 내신 대비 + 1번 직전 특강)",
+    content: "2학기 중간고사 내신 기간",
   },
   {
     month: "10월",
-    content: "법학 / 고전산문 읽기 / 사설 테마 : 윤리/범죄",
+    content: "법학 / 고전산문 읽기 / 사설 테마 : 윤리, 법",
   },
   {
     month: "11월",
-    content: "2학기 기말고사 내신 (4번 내신 대비 + 1번 직전 특강)",
+    content: "2학기 기말고사 내신 기간",
   },
   {
     month: "12월",
-    content: "역사 / 고전산문 읽기 / 사설 테마 : 역사",
+    content: "역사학 / 고전산문 읽기 / 사설 테마 : 역사",
   },
 ];
 
@@ -247,17 +247,16 @@ export default function Curriculum() {
               </div>
               <div className="flex border-b border-gray-200 pb-3">
                 <div className="w-24 font-medium text-gray-700">3주차</div>
-                <div className="text-gray-600">주제별 독서 비명문 작성</div>
+                <div className="text-gray-600">주제별 독서 비평문 작성</div>
               </div>
               <div className="flex border-b border-gray-200 pb-3">
                 <div className="w-24 font-medium text-gray-700">4주차</div>
-                <div className="text-gray-600">주제별 독서 비명문 작성</div>
+                <div className="text-gray-600">정기고사 / 다음 선정 도서 안내</div>
               </div>
               <div className="flex">
                 <div className="w-24 font-medium text-gray-700">5주차</div>
                 <div className="text-gray-600">
-                  정기고사 (어휘, 사자성어, 기존 수업했던 지문 내용 중심) / 다음
-                  선정 도서 안내
+                  국어 영재 프로그램
                 </div>
               </div>
             </div>
