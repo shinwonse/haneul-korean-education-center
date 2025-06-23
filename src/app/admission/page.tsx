@@ -24,7 +24,7 @@ export default function Admission() {
         {/* 테스트 예약 */}
         <div className="flex gap-8">
           <div className="w-20 h-20 flex items-center justify-center">
-            <Image src="/phone.png" alt="전화" width={64} height={64} />
+            <Image src="/net.png" alt="전화" width={64} height={64} />
           </div>
           <div className="flex flex-col gap-5">
             <Badge
