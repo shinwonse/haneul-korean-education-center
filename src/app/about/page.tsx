@@ -107,7 +107,7 @@ export default function About() {
             <div className={cn("flex-1")}>
               <h3
                 className={cn(
-                  "font-bold text-gray-800",
+                  "font-gmarket-medium text-gray-800",
                   "text-lg sm:text-xl md:text-2xl",
                   "mb-2 sm:mb-3 md:mb-4"
                 )}
@@ -123,7 +123,7 @@ export default function About() {
                 더 이상 문과라고 과학을 공부하지 않아도 되고, 이과라고 사회를
                 공부하지 않아도 되는 시대가 아닙니다. 시대가 요구하는 인재는
                 &lsquo;인문학적 소양을 갖춘 공학도&rsquo;, &lsquo;코딩을 제대로
-                다룰 수 있는 인문학 전공자&rsquo;입니다. 하늘 국어영재교육원은
+                다룰 수 있는 인문학 전공자&rsquo;입니다. 하늘 국어영재원은
                 학생들이 수능 지문을 통해 인문학, 철학, 논리학, 사회학, 법학,
                 경제학, 자연 과학, 공학, 미학까지 전 영역의
                 &lsquo;스키마&rsquo;(배경지식)를 쌓을 수 있도록 교육합니다.
@@ -153,7 +153,7 @@ export default function About() {
             <div className={cn("flex-1")}>
               <h3
                 className={cn(
-                  "font-bold text-gray-800",
+                  "font-gmarket-medium text-gray-800",
                   "text-lg sm:text-xl md:text-2xl",
                   "mb-2 sm:mb-3 md:mb-4"
                 )}
@@ -166,12 +166,12 @@ export default function About() {
                   "text-sm sm:text-base md:text-base"
                 )}
               >
-                학생부가 축소되고 있는 현재 가장 중요한 평가 교과별 세부능력
+                학생부 종합 전형에서 현재 가장 중요한 평가 항목은 교과별 세부능력
                 특기사항(세특)입니다. 그리고 세특에서 가장 중요한 것이
                 &lsquo;수행 독서&rsquo;입니다. 단순히 책을 읽기만 하는 것이
-                아니라, 책의 내용과 &lsquo;선교(전공)&rsquo;를 연결하는 것이
-                중요한데, 하늘 국어영재교육원에서 시중에 메디컬 대학의 관찰
-                도서를 중심으로 읽고 소고 발품 수행 독서 수업이 이루어집니다.
+                아니라, 책의 내용과 &lsquo;진로(전공)&rsquo;를 연결하는 것이
+                중요한데, 하늘 국어영재원에선 서울대, 최상위 메디컬 대학의 권장
+                도서를 중심으로 읽고 쓰고 말하는 수업이 이루어집니다.
               </p>
             </div>
           </div>
@@ -198,7 +198,7 @@ export default function About() {
             <div className={cn("flex-1")}>
               <h3
                 className={cn(
-                  "font-bold text-gray-800",
+                  "font-gmarket-medium text-gray-800",
                   "text-lg sm:text-xl md:text-2xl",
                   "mb-2 sm:mb-3 md:mb-4"
                 )}
@@ -211,11 +211,10 @@ export default function About() {
                   "text-sm sm:text-base md:text-base"
                 )}
               >
-                서울대 국어교육 석사 이상의 연구진들로 구성된 컨
-                국어영재교육원에서 제작한 &lsquo;프리미엄 교재&rsquo;와 철저하게
-                준비한 수업 시스템으로 &lsquo;진짜&rsquo; 국어 영재를 키우고
-                있습니다. 전교 3% 이내 극상위권 학생들을 위해서 완전 직접의
-                차별화된 프리미엄 수업이 진행됩니다.
+                기존 국어 학원들의 암기 중심, 구조 중심 교육에서 벗어나 사고력과 논리력을 제대로 갖춘
+                국어 영재를 키우는 것이 하늘 국어영재원이 추구하는 교육 목표입니다. 서울대 국어영재교육 석사
+                이상의 연구진들로 구성된 현 국어영재연구원에서 제작한 &lsquo;프리미엄 교재&rsquo;와 철저하게
+                준비한 수업 시스템으로 &lsquo;진짜&rsquo; 국어 영재를 키우고자 합니다.
               </p>
             </div>
           </div>
@@ -308,11 +307,11 @@ export default function About() {
                   "text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl"
                 )}
               >
-                교육과정 내의 모든 교과서 작품에 수록된 문학 작품을 읽어 문학이
+                2022 개정 교육과정 교과서에 수록된 문학 작품을 감상하여
                 <br className="hidden sm:block" />
-                우리 삶과 맞닿아 있음을 이해하고, 삶에 적용해보는 자기표현적
+                문학이 우리 삶과 맞닿아 있음을 이해하고, 삶에 적용해보는
                 <br className="hidden sm:block" />
-                글쓰기를 할 수 있다.
+                자기표현적 글쓰기를 할 수 있다.
               </p>
             </div>
           </div>
