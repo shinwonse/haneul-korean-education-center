@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils';
 
 export default function Home() {
   return (
-    <>
+    <div className={cn('min-h-screen flex flex-col')}>
       <div className={cn('flex-1 flex flex-col items-center px-4 py-24')}>
         {/* Header text */}
         <div className={cn('flex flex-col gap-4 text-center mb-8')}>
@@ -49,6 +49,6 @@ export default function Home() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
