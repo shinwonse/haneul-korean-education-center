@@ -43,7 +43,11 @@ export function Footer() {
           />
         </Link>
       </div>
-      <div>
+      <div className="text-center">
+        <p className={cn('text-white text-sm')}>
+          대구 수성구 달구벌대로 2507 8층
+        </p>
+      <br />
         <p className={cn('text-white text-xs')}>
           ⓒ haneuledu all rights reserved.
         </p>

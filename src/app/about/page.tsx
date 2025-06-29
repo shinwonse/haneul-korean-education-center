@@ -50,6 +50,97 @@ export default function About() {
         </div>
       </section>
 
+      {/* 인사말 */}
+        <section
+          id="greeting"
+          className={cn(
+            'flex flex-col items-center justify-center bg-white w-full',
+            'py-12 sm:py-16 md:py-20 lg:py-24',
+            'px-4 sm:px-6 md:px-8 lg:px-12',
+          )}
+        >
+          <Badge
+            className={cn(
+              'text-white font-medium rounded-full shadow-lg bg-[#2A338E]',
+              'py-2 px-6 sm:px-8 md:px-10',
+              'text-base sm:text-lg md:text-xl',
+              'mb-10',
+            )}
+          >
+            인사말
+          </Badge>
+          <div className={cn('max-w-4xl w-full text-center')}>
+            <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              <span className="text-base sm:text-lg md:text-xl font-semibold">
+              안녕하세요,
+              </span>
+            </p>
+            <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              <span className="text-base sm:text-lg md:text-xl font-semibold">
+              하늘 국어영재원을 찾아주셔서 진심으로 감사드립니다.
+              </span>
+                <br />
+                <br />
+            </p>
+             <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              세상이 빠르게 변화하고 있는 지금, 교육의 방향 또한 새롭게 정의되고 있습니다. 단순한 지식 전달을 넘어, <br />
+              융합적 사고력과 깊이 있는 인문학적 소양을 갖춘 인재의 필요성이 그 어느 때보다 강조되고 있습니다.
+                <br />
+                <br />
+             </p>
+             <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              하늘 국어영재원은 이러한 시대적 요구에 발맞추어, 국어학력 향상을 위한 차별화된 국어 교육 시스템을 구축하였습니다.<br />
+              수능 지문을 기반으로 전 영역의 배경지식, 즉 ‘스키마’를 형성할 수 있도록 설계된 커리큘럼,<br />
+              서울대 및 메디컬 대학 권장 도서를 활용한 수행 독서, <br />
+              그리고 진로 연계 글쓰기를 통해 학생 스스로 사고하고 표현하는 힘을 길러줍니다.
+                <br />
+                <br />
+             </p>
+             <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              또한, 서울대 국어교육 석사 이상의 연구진들이 직접 개발한 프리미엄 교재와 수업 시스템, <br />
+              그리고 원장 직강 수업을 통해 진정한 국어 영재를 길러내는 데에 집중하고 있습니다.
+                <br />
+                <br />
+             </p>
+             <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              하늘 국어영재원은 단순한 학원이 아닌, 학생의 진로와 삶을 설계하는 ‘교육 파트너’가 되고자 합니다. <br />
+              학생 한 명 한 명이 자신의 지성과 개성을 꽃피우고, 미래를 향해 도약할 수 있도록 늘 최선을 다하겠습니다.
+                <br />
+                <br />
+             </p>
+             <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              감사합니다.
+            </p>
+
+            <p className={cn('mt-6 text-[#2A338E] font-semibold text-base sm:text-lg md:text-xl')}>
+              - 하늘 국어영재원 원장 -
+            </p>
+
+            <div
+              className={cn(
+                'mt-8 bg-gray-50 border border-gray-200 rounded-lg p-6',
+                'text-sm sm:text-base text-left text-gray-700',
+                'grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3',
+              )}
+            >
+              <p>· 現 국어영재원 현 대표</p>
+              <p>· 現 국어영재원 현 대표컨설턴트</p>
+              <p>· 現 서울대, 의대 전문 입시코디</p>
+              <p>· 前 디아 아카데미 대표 원장</p>
+              <p>· 前 수성구 중고등학교 교사</p>
+              <p>· 비상 교육 교과서 검토 위원</p>
+              <p>· 천재 교육 교과서 검토 위원</p>
+              <p>· 대구 교육감 인재 양성 표창</p>
+              <p>· 교육부 장관 인재 양성 표창</p>
+              <p>· 1급 중고등학교 정교사 자격</p>
+              <p>· 독서논술지도사 자격</p>
+              <p>· 심리 상담사 자격</p>
+              <p>· 청소년 상담 자격</p>
+            </div>
+          </div>
+        </section>
+
+
       {/* 가치와 비전 */}
       <section
         id="value"
@@ -214,7 +305,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* 학습목표 */}
+        {/* 학습목표 */}
       <section
         id="goals"
         className={cn(
@@ -297,9 +388,9 @@ export default function About() {
                   'text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl',
                 )}
               >
-                2022 개정 교육과정 교과서에 수록된 문학 작품을 감상하여
+                2022 개정 교육과정 교과서에 수록된 문학 작품을 감상하여 
                 <br className="hidden sm:block" />
-                문학이 우리 삶과 맞닿아 있음을 이해하고, 삶에 적용해보는
+                문학이 우리 삶과 맞닿아 있음을 이해하고, 삶에 적용해보는 
                 <br className="hidden sm:block" />
                 자기표현적 글쓰기를 할 수 있다.
               </p>
@@ -331,69 +422,21 @@ export default function About() {
                   'text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl',
                 )}
               >
-                우리 삶에서 실제로 일어나는 시사 문제에 대해 생각해보는
+                우리 삶에서 일어나는 시사문제에 대해 사고하는 
                 <br className="hidden sm:block" />
-                사회참여적 글쓰기와 수행 독서를 통해 개념은 지식과 진로를
+                사회참여적 글쓰기와 수행독서를 통해, 개념을 자신의 진로와 
                 <br className="hidden sm:block" />
-                연관지어 보는 진로 연계글쓰기를 할 수 있다.
+                연관짓는 진로 연계 글쓰기를 할 수 있다.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 인사말 */}
-        <section
-          id="greeting"
-          className={cn('bg-white py-20 px-6 md:px-12')}
-        >
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-[#2A338E] mb-8">원장 인사말</h2>
-            <p className="text-gray-800 text-base md:text-lg leading-relaxed whitespace-pre-line">
-              안녕하세요,
-              하늘 국어영재원을 찾아주셔서 진심으로 감사드립니다.
-
-              세상이 빠르게 변화하고 있는 지금, 교육의 방향 또한 새롭게 정의되고 있습니다. 단순한 지식 전달을 넘어, 융합적 사고력과 깊이 있는 인문학적 소양을 갖춘 인재의 필요성이 그 어느 때보다 강조되고 있습니다.
-
-              하늘 국어영재원은 이러한 시대적 요구에 발맞추어, 극상위권 학생들을 위한 차별화된 국어 교육 시스템을 구축하였습니다.
-              수능 지문을 기반으로 전 영역의 배경지식, 즉 '스키마'를 형성할 수 있도록 설계된 커리큘럼, 서울대 및 메디컬 대학 권장 도서를 활용한 수행 독서, 그리고 진로 연계 글쓰기를 통해 학생 스스로 사고하고 표현하는 힘을 길러줍니다.
-
-              또한, 서울대 국어교육 석사 이상의 연구진들이 직접 개발한 프리미엄 교재와 수업 시스템, 그리고 원장 직강 수업을 통해 진정한 국어 영재를 길러내는 데에 집중하고 있습니다.
-
-              하늘 국어영재원은 단순한 학원이 아닌, 학생의 진로와 삶을 설계하는 ‘교육 파트너’가 되고자 합니다.
-
-              학생 한 명 한 명이 자신의 지성과 개성을 꽃피우고, 미래를 향해 도약할 수 있도록 늘 최선을 다하겠습니다.
-
-              감사합니다.
-            </p>
-            <p className="mt-8 text-right font-semibold text-[#2A338E] text-base md:text-lg">하늘 국어영재원 원장</p>
-
-            {/* 경력 */}
-            <div className="mt-8 text-sm text-gray-600 text-left whitespace-pre-line leading-relaxed">
-              <p className="font-semibold mb-2">대표 원장 : 현 원장</p>
-              <ul className="list-disc pl-5 space-y-1">
-                <li>現 국어영재원 현 대표</li>
-                <li>現 국어영재원 현 대표컨설턴트</li>
-                <li>現 서울대, 의대 전문 입시코디</li>
-                <li>前 디아 아카데미 대표 원장</li>
-                <li>前 수성구 중고등학교 교사</li>
-                <li>비상 교육 교과서 검토 위원</li>
-                <li>천재 교육 교과서 검토 위원</li>
-                <li>대구 교육감 인재 양성 표창</li>
-                <li>교육부 장관 인재 양성 표창</li>
-                <li>1급 중고등학교 정교사 자격</li>
-                <li>독서논술지도사 자격</li>
-                <li>심리 상담사 자격</li>
-                <li>청소년 상담 자격</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
         {/* 위치 안내 */}
           <section
             id="location"
-            className={cn('bg-[#F5FAFF] py-20 px-6 md:px-12')}
+            className={cn('bg-white py-20 px-6 md:px-12')}
           >
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl font-bold text-[#2A338E] mb-6">학원 위치 안내</h2>
@@ -402,7 +445,7 @@ export default function About() {
               {/* 네이버 지도 iframe 삽입 */}
               <div className="w-full h-[400px]">
                 <iframe
-                  src="https://map.naver.com/p/entry/place/1004409667?c=14140823.2407572,4184292.9707398,15,0,0,0,dh"
+                  src="https://map.naver.com/v5/entry/place/2085107266?c=16.80,0,0,0,dh"
                   width="100%"
                   height="100%"
                   frameBorder="0"
@@ -416,7 +459,7 @@ export default function About() {
         {/* 학원 규정 */}
           <section
             id="rules"
-            className={cn('bg-white py-20 px-6 md:px-12')}
+            className={cn('bg-[#F5FAFF] py-20 px-6 md:px-12')}
           >
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-3xl font-bold text-[#2A338E] mb-6">학원 규정</h2>
