@@ -11,8 +11,10 @@ const NAVIGATION_LINKS = [
     label: '학원 소개',
     href: '/about',
     submenus: [
+      { label: '인사말', href: '/about#greeting' },
       { label: '가치와 비전', href: '/about#value' },
-      { label: '학습 목표', href: '/about#goals' },
+      { label: '학원 위치 안내', href: '/about#location' },
+      { label: '학원 규정', href: '/about#rules' },
     ],
   },
   {

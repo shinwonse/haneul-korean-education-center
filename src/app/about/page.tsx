@@ -341,6 +341,94 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      {/* 인사말 */}
+        <section
+          id="greeting"
+          className={cn('bg-white py-20 px-6 md:px-12')}
+        >
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold text-[#2A338E] mb-8">원장 인사말</h2>
+            <p className="text-gray-800 text-base md:text-lg leading-relaxed whitespace-pre-line">
+              안녕하세요,
+              하늘 국어영재원을 찾아주셔서 진심으로 감사드립니다.
+
+              세상이 빠르게 변화하고 있는 지금, 교육의 방향 또한 새롭게 정의되고 있습니다. 단순한 지식 전달을 넘어, 융합적 사고력과 깊이 있는 인문학적 소양을 갖춘 인재의 필요성이 그 어느 때보다 강조되고 있습니다.
+
+              하늘 국어영재원은 이러한 시대적 요구에 발맞추어, 극상위권 학생들을 위한 차별화된 국어 교육 시스템을 구축하였습니다.
+              수능 지문을 기반으로 전 영역의 배경지식, 즉 '스키마'를 형성할 수 있도록 설계된 커리큘럼, 서울대 및 메디컬 대학 권장 도서를 활용한 수행 독서, 그리고 진로 연계 글쓰기를 통해 학생 스스로 사고하고 표현하는 힘을 길러줍니다.
+
+              또한, 서울대 국어교육 석사 이상의 연구진들이 직접 개발한 프리미엄 교재와 수업 시스템, 그리고 원장 직강 수업을 통해 진정한 국어 영재를 길러내는 데에 집중하고 있습니다.
+
+              하늘 국어영재원은 단순한 학원이 아닌, 학생의 진로와 삶을 설계하는 ‘교육 파트너’가 되고자 합니다.
+
+              학생 한 명 한 명이 자신의 지성과 개성을 꽃피우고, 미래를 향해 도약할 수 있도록 늘 최선을 다하겠습니다.
+
+              감사합니다.
+            </p>
+            <p className="mt-8 text-right font-semibold text-[#2A338E] text-base md:text-lg">하늘 국어영재원 원장</p>
+
+            {/* 경력 */}
+            <div className="mt-8 text-sm text-gray-600 text-left whitespace-pre-line leading-relaxed">
+              <p className="font-semibold mb-2">대표 원장 : 현 원장</p>
+              <ul className="list-disc pl-5 space-y-1">
+                <li>現 국어영재원 현 대표</li>
+                <li>現 국어영재원 현 대표컨설턴트</li>
+                <li>現 서울대, 의대 전문 입시코디</li>
+                <li>前 디아 아카데미 대표 원장</li>
+                <li>前 수성구 중고등학교 교사</li>
+                <li>비상 교육 교과서 검토 위원</li>
+                <li>천재 교육 교과서 검토 위원</li>
+                <li>대구 교육감 인재 양성 표창</li>
+                <li>교육부 장관 인재 양성 표창</li>
+                <li>1급 중고등학교 정교사 자격</li>
+                <li>독서논술지도사 자격</li>
+                <li>심리 상담사 자격</li>
+                <li>청소년 상담 자격</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* 위치 안내 */}
+          <section
+            id="location"
+            className={cn('bg-[#F5FAFF] py-20 px-6 md:px-12')}
+          >
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-3xl font-bold text-[#2A338E] mb-6">학원 위치 안내</h2>
+              <p className="text-lg text-gray-800 mb-6">대구 수성구 달구벌대로 2507 8층</p>
+
+              {/* 네이버 지도 iframe 삽입 */}
+              <div className="w-full h-[400px]">
+                <iframe
+                  src="https://map.naver.com/p/entry/place/1004409667?c=14140823.2407572,4184292.9707398,15,0,0,0,dh"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allowFullScreen
+                  title="하늘 국어영재원 위치"
+                ></iframe>
+              </div>
+            </div>
+          </section>
+
+        {/* 학원 규정 */}
+          <section
+            id="rules"
+            className={cn('bg-white py-20 px-6 md:px-12')}
+          >
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-3xl font-bold text-[#2A338E] mb-6">학원 규정</h2>
+              <Image
+                src="/academy-rules.jpg" // public 폴더에 저장된 이미지 경로
+                alt="학원 규정"
+                width={800}
+                height={600}
+                className="mx-auto rounded shadow-md"
+              />
+            </div>
+          </section>
     </div>
   );
 }
