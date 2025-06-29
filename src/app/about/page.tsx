@@ -358,7 +358,7 @@ export default function About() {
               >
                 비문학 지문을 문장 단위로 읽으며 도출할 수 있는 정보를 생각하고
                 <br className="hidden sm:block" />
-                자료를 활용하여 질문에 맞게 논리적인 글쓰기를 할 수 있다.
+                 자료를 활용하여 질문에 맞게 논리적인 글쓰기를 할 수 있다.
               </p>
             </div>
           </div>
@@ -390,9 +390,9 @@ export default function About() {
               >
                 2022 개정 교육과정 교과서에 수록된 문학 작품을 감상하여 
                 <br className="hidden sm:block" />
-                문학이 우리 삶과 맞닿아 있음을 이해하고, 삶에 적용해보는 
+                 문학이 우리 삶과 맞닿아 있음을 이해하고, 삶에 적용해보는 
                 <br className="hidden sm:block" />
-                자기표현적 글쓰기를 할 수 있다.
+                 자기표현적 글쓰기를 할 수 있다.
               </p>
             </div>
           </div>
@@ -424,9 +424,9 @@ export default function About() {
               >
                 우리 삶에서 일어나는 시사문제에 대해 사고하는 
                 <br className="hidden sm:block" />
-                사회참여적 글쓰기와 수행독서를 통해, 개념을 자신의 진로와 
+                 사회참여적 글쓰기와 수행독서를 통해, 개념을 자신의 진로와 
                 <br className="hidden sm:block" />
-                연관짓는 진로 연계 글쓰기를 할 수 있다.
+                 연관짓는 진로 연계 글쓰기를 할 수 있다.
               </p>
             </div>
           </div>
