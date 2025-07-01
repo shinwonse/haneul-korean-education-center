@@ -437,7 +437,7 @@ export default function About() {
           <section
             id="location"
             className={cn(
-              'flex flex-col items-center justify-center bg-[#F9FAFB] w-full',
+              'flex flex-col items-center justify-center bg-[white] w-full',
               'py-12 sm:py-16 md:py-20 lg:py-24',
               'px-4 sm:px-6 md:px-8 lg:px-12',
             )}
@@ -463,7 +463,7 @@ export default function About() {
             >
               하늘 국어영재원은 <strong>대구 수성구 달구벌대로 2507, 8층</strong>에 위치해 있습니다.
               <br className="hidden sm:block" />
-              아래 지도를 클릭하시면 네이버 지도에서 확인하실 수 있습니다.
+              &nbsp;아래 지도를 클릭하시면 네이버 지도에서 확인하실 수 있습니다.
             </p>
 
             {/* 지도 이미지 & 버튼 */}
@@ -499,7 +499,7 @@ export default function About() {
         {/* 학원 규정 */}
           <section
             id="rules"
-            className={cn('bg-[#F5FAFF] py-20 px-6 md:px-12')}
+            className={cn('bg-[#E7F3FF] py-20 px-6 md:px-12')}
           >
             <div className="max-w-4xl mx-auto text-center">
               <Badge
