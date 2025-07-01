@@ -436,23 +436,63 @@ export default function About() {
         {/* 위치 안내 */}
           <section
             id="location"
-            className={cn('bg-white py-20 px-6 md:px-12')}
+            className={cn(
+              'flex flex-col items-center justify-center bg-[#F9FAFB] w-full',
+              'py-12 sm:py-16 md:py-20 lg:py-24',
+              'px-4 sm:px-6 md:px-8 lg:px-12',
+            )}
           >
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl font-bold text-[#2A338E] mb-6">학원 위치 안내</h2>
-              <p className="text-lg text-gray-800 mb-6">대구 수성구 달구벌대로 2507 8층</p>
+            {/* 배지 타이틀 */}
+            <Badge
+              className={cn(
+                'text-white font-medium rounded-full shadow-lg bg-[#2A338E]',
+                'py-2 px-6 sm:px-8 md:px-10',
+                'text-base sm:text-lg md:text-xl',
+                'mb-10',
+              )}
+            >
+              학원 위치 안내
+            </Badge>
 
-              {/* 네이버 지도 iframe 삽입 */}
-              <div className="w-full h-[400px]">
-                <iframe
-                  src="https://map.naver.com/v5/entry/place/2085107266?c=16.80,0,0,0,dh"
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  allowFullScreen
-                  title="하늘 국어영재원 위치"
-                ></iframe>
-              </div>
+            {/* 설명 문구 */}
+            <p
+              className={cn(
+                'text-center text-sm sm:text-base md:text-lg text-gray-800',
+                'mb-8',
+              )}
+            >
+              하늘 국어영재원은 <strong>대구 수성구 달구벌대로 2507, 8층</strong>에 위치해 있습니다.
+              <br className="hidden sm:block" />
+              아래 지도를 클릭하시면 네이버 지도에서 확인하실 수 있습니다.
+            </p>
+
+            {/* 지도 이미지 & 버튼 */}
+            <div className="w-full max-w-3xl">
+              <a
+                href="https://naver.me/Fiv6kXBA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <Image
+                  src="/naver-map.png"
+                  alt="하늘 국어영재원 위치 - 네이버 지도 보기"
+                  width={800}
+                  height={400}
+                  className="rounded-lg shadow-md w-full object-cover"
+                />
+              </a>
+
+              <p className="text-sm text-center mt-4 text-gray-600">
+                <a
+                  href="https://naver.me/Fiv6kXBA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-[#2A338E] font-medium"
+                >
+                  네이버 지도에서 크게 보기
+                </a>
+              </p>
             </div>
           </section>
 
@@ -462,7 +502,16 @@ export default function About() {
             className={cn('bg-[#F5FAFF] py-20 px-6 md:px-12')}
           >
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl font-bold text-[#2A338E] mb-6">학원 규정</h2>
+              <Badge
+                className={cn(
+                  'text-white font-medium rounded-full shadow-lg bg-[#2A338E]',
+                  'py-2 px-6 sm:px-8 md:px-10',
+                  'text-base sm:text-lg md:text-xl',
+                  'mb-10',
+                )}
+              >
+                학원 규정
+              </Badge>
               <Image
                 src="/academy-rules.jpg" // public 폴더에 저장된 이미지 경로
                 alt="학원 규정"
