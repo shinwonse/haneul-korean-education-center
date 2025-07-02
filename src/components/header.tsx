@@ -146,7 +146,7 @@ export function Header() {
             />
             <div className={cn('flex flex-col')}>
               <h1
-                className={cn('text-base text-[#2A338E] font-bold text-primary leading-tight')}
+                className={cn('text-base text-[#2A338E] font-bold leading-tight')}
               >
                 하늘국어영재원
               </h1>
