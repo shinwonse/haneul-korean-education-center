@@ -60,14 +60,14 @@ export function Header() {
           {/* Logo and title */}
           <Link href="/" className={cn('flex items-center gap-4')}>
             <Image
-              src="logo_black.svg"
+              src="logo_blue.svg"
               alt="하늘국어영재원 로고"
               width={45}
               height={45}
             />
             <div className={cn('flex flex-col')}>
               <h1
-                className={cn('text-lg font-bold text-primary leading-tight')}
+                className={cn('text-lg font-bold text-primary text-[#2A338E] leading-tight')}
               >
                 하늘국어영재원
               </h1>
@@ -139,7 +139,7 @@ export function Header() {
           {/* Logo and title */}
           <Link href="/" className={cn('flex items-center gap-2')}>
             <Image
-              src="logo_black.svg"
+              src="logo_blue.svg"
               alt="하늘국어영재원 로고"
               width={35}
               height={35}

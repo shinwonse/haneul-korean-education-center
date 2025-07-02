@@ -37,7 +37,7 @@ export default function About() {
               'text-base sm:text-lg md:text-2xl font-gmarket-medium',
             )}
           >
-            하늘 국어영재원
+            하늘국어영재원
           </p>
           <p
             className={cn(
@@ -70,50 +70,21 @@ export default function About() {
             인사말
           </Badge>
           <div className={cn('max-w-4xl w-full text-center')}>
-            <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
-              <span className="text-base sm:text-lg md:text-xl font-semibold">
-              안녕하세요,
-              </span>
-            </p>
-            <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
-              <span className="text-base sm:text-lg md:text-xl font-semibold">
-              하늘 국어영재원을 찾아주셔서 진심으로 감사드립니다.
-              </span>
-                <br />
-                <br />
-            </p>
              <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
-              세상이 빠르게 변화하고 있는 지금, 교육의 방향 또한 새롭게 정의되고 있습니다. 단순한 지식 전달을 넘어, <br />
-              융합적 사고력과 깊이 있는 인문학적 소양을 갖춘 인재의 필요성이 그 어느 때보다 강조되고 있습니다.
+              참된 스승은 아이보다 반 발짝 앞에서 믿고 기다리는 사람입니다. 가르친다는 것은 지식을 옮기는 일이 아니라 가능성을 지켜보는 것입니다. 
+              단 한명의 아이도 내 아이처럼 국어 실력과 생각하는 힘을 성장시키기 위해 수업을 실험하고 교재를 만들고 치열하게 고민하여 돕고자 합니다. 
+              두려움과 강요를 통한 교육은 느리고 질립니다. 깨달음과 성찰을 통한 교육은 빠르고 근사합니다. 
                 <br />
                 <br />
              </p>
              <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
-              하늘 국어영재원은 이러한 시대적 요구에 발맞추어, 국어학력 향상을 위한 차별화된 국어 교육 시스템을 구축하였습니다.<br />
-              수능 지문을 기반으로 전 영역의 배경지식, 즉 ‘스키마’를 형성할 수 있도록 설계된 커리큘럼,<br />
-              서울대 및 메디컬 대학 권장 도서를 활용한 수행 독서, <br />
-              그리고 진로 연계 글쓰기를 통해 학생 스스로 사고하고 표현하는 힘을 길러줍니다.
+              제대로 된 국어교육을 통해 상위1%의 길을 열겠습니다.
                 <br />
                 <br />
-             </p>
-             <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
-              또한, 서울대 국어교육 석사 이상의 연구진들이 직접 개발한 프리미엄 교재와 수업 시스템, <br />
-              그리고 원장 직강 수업을 통해 진정한 국어 영재를 길러내는 데에 집중하고 있습니다.
-                <br />
-                <br />
-             </p>
-             <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
-              하늘 국어영재원은 단순한 학원이 아닌, 학생의 진로와 삶을 설계하는 ‘교육 파트너’가 되고자 합니다. <br />
-              학생 한 명 한 명이 자신의 지성과 개성을 꽃피우고, 미래를 향해 도약할 수 있도록 늘 최선을 다하겠습니다.
-                <br />
-                <br />
-             </p>
-             <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
-              감사합니다.
             </p>
 
             <p className={cn('mt-6 text-[#2A338E] font-semibold text-base sm:text-lg md:text-xl')}>
-              - 하늘 국어영재원 원장 -
+              - 하늘국어영재원 현원장 올림 -
             </p>
 
             <div
@@ -123,11 +94,11 @@ export default function About() {
                 'grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3',
               )}
             >
-              <p>· 現 국어영재원 현 대표</p>
-              <p>· 現 국어영재원 현 대표컨설턴트</p>
+              <p>· 現 하늘국어영재원 대표 원장</p>
+              <p>· 現 현 국어영재원 대표</p>
+              <p>· 現 현 국어영재원 대표컨설턴트</p>
               <p>· 現 서울대, 의대 전문 입시코디</p>
-              <p>· 前 디아 아카데미 대표 원장</p>
-              <p>· 前 수성구 중고등학교 교사</p>
+              <p>· 前 수성구 중.고등학교 교사</p>
               <p>· 비상 교육 교과서 검토 위원</p>
               <p>· 천재 교육 교과서 검토 위원</p>
               <p>· 대구 교육감 인재 양성 표창</p>
@@ -135,7 +106,6 @@ export default function About() {
               <p>· 1급 중고등학교 정교사 자격</p>
               <p>· 독서논술지도사 자격</p>
               <p>· 심리 상담사 자격</p>
-              <p>· 청소년 상담 자격</p>
             </div>
           </div>
         </section>
@@ -205,7 +175,7 @@ export default function About() {
                 더 이상 문과라고 과학을 공부하지 않아도 되고, 이과라고 사회를
                 공부하지 않아도 되는 시대가 아닙니다. 시대가 요구하는 인재는
                 &lsquo;인문학적 소양을 갖춘 공학도&rsquo;, &lsquo;코딩을 제대로
-                다룰 수 있는 인문학 전공자&rsquo;입니다. 하늘 국어영재원은
+                다룰 수 있는 인문학 전공자&rsquo;입니다. 하늘국어영재원은
                 학생들이 수능 지문을 통해 인문학, 철학, 논리학, 사회학, 법학,
                 경제학, 자연 과학, 공학, 미학까지 전 영역의
                 &lsquo;스키마&rsquo;(배경지식)를 쌓을 수 있도록 교육합니다.
@@ -252,7 +222,7 @@ export default function About() {
                 세부능력 특기사항(세특)입니다. 그리고 세특에서 가장 중요한 것이
                 &lsquo;수행 독서&rsquo;입니다. 단순히 책을 읽기만 하는 것이
                 아니라, 책의 내용과 &lsquo;진로(전공)&rsquo;를 연결하는 것이
-                중요한데, 하늘 국어영재원에선 서울대, 최상위 메디컬 대학의 권장
+                중요한데, 하늘국어영재원에선 서울대, 최상위 메디컬 대학의 권장
                 도서를 중심으로 읽고 쓰고 말하는 수업이 이루어집니다.
               </p>
             </div>
@@ -294,7 +264,7 @@ export default function About() {
                 )}
               >
                 기존 국어 학원들의 암기 중심, 구조 중심 교육에서 벗어나 사고력과
-                논리력을 제대로 갖춘 국어 영재를 키우는 것이 하늘 국어영재원이
+                논리력을 제대로 갖춘 국어 영재를 키우는 것이 하늘국어영재원이
                 추구하는 교육 목표입니다. 서울대 국어영재교육 석사 이상의
                 연구진들로 구성된 현 국어영재연구원에서 제작한 &lsquo;프리미엄
                 교재&rsquo;와 철저하게 준비한 수업 시스템으로 &lsquo;진짜&rsquo;
@@ -461,7 +431,7 @@ export default function About() {
                 'mb-8',
               )}
             >
-              하늘 국어영재원은 <strong>대구 수성구 달구벌대로 2507, 8층</strong>에 위치해 있습니다.
+              하늘국어영재원은 <strong>대구 수성구 달구벌대로 2507, 8층</strong>에 위치해 있습니다.
               <br className="hidden sm:block" />
               &nbsp;아래 지도를 클릭하시면 네이버 지도에서 확인하실 수 있습니다.
             </p>
@@ -476,7 +446,7 @@ export default function About() {
               >
                 <Image
                   src="/naver-map.png"
-                  alt="하늘 국어영재원 위치 - 네이버 지도 보기"
+                  alt="하늘국어영재원 위치 - 네이버 지도 보기"
                   width={800}
                   height={400}
                   className="rounded-lg shadow-md w-full object-cover"

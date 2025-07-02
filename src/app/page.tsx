@@ -23,7 +23,7 @@ export default function Home() {
                 'text-2xl md:text-3xl font-gmarket-medium text-gray-800',
               )}
             >
-              하늘 국어영재원
+              하늘국어영재원
             </h2>
           </div>
         </div>
