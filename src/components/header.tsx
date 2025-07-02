@@ -11,8 +11,10 @@ const NAVIGATION_LINKS = [
     label: '학원 소개',
     href: '/about',
     submenus: [
+      { label: '인사말', href: '/about#greeting' },
       { label: '가치와 비전', href: '/about#value' },
-      { label: '학습 목표', href: '/about#goals' },
+      { label: '학원 위치 안내', href: '/about#location' },
+      { label: '학원 규정', href: '/about#rules' },
     ],
   },
   {
@@ -196,6 +198,7 @@ export function Header() {
             <nav className={cn('py-4 px-4')}>
               {NAVIGATION_LINKS.map((link) => (
                 <div key={link.href} className={cn('mb-2 last:mb-0')}>
+                  {/* 상위 카테고리 */}
                   <div className={cn('flex items-center justify-between')}>
                     <Link
                       href={link.href}
@@ -207,6 +210,24 @@ export function Header() {
                       {link.label}
                     </Link>
                   </div>
+
+                  {/* ✅ 서브메뉴 (모바일용 하위 메뉴) */}
+                  {link.submenus.length > 0 && (
+                    <div className="ml-4 mt-2">
+                      {link.submenus.map((submenu) => (
+                        <Link
+                          key={submenu.href}
+                          href={submenu.href}
+                          className={cn(
+                            'block py-2 pl-4 text-sm rounded hover:text-[#2A338E] hover:bg-gray-50',
+                          )}
+                          onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                          - {submenu.label}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
                 </div>
               ))}
             </nav>

@@ -64,7 +64,7 @@ export default function Admission() {
               'w-16 h-16 md:w-20 md:h-20 flex items-center justify-center flex-shrink-0',
             )}
           >
-            <Image src="/test.png" alt="테스트" width={64} height={64} />
+            <Image src="/test.png" alt="테스트" width={58} height={58} />
           </div>
           <div className={cn('flex flex-col gap-3 md:gap-5 flex-1')}>
             <Badge
@@ -294,7 +294,7 @@ export default function Admission() {
                     'p-4 text-center border-r border-gray-300 bg-white whitespace-nowrap',
                   )}
                 >
-                  10분
+                  50분
                 </td>
                 <td className={cn('p-4 text-center bg-white')}>
                   최상위권 대학 선정 도서를 기반으로 독서 토론 및 비평문 작성

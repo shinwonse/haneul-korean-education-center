@@ -50,6 +50,97 @@ export default function About() {
         </div>
       </section>
 
+      {/* 인사말 */}
+        <section
+          id="greeting"
+          className={cn(
+            'flex flex-col items-center justify-center bg-white w-full',
+            'py-12 sm:py-16 md:py-20 lg:py-24',
+            'px-4 sm:px-6 md:px-8 lg:px-12',
+          )}
+        >
+          <Badge
+            className={cn(
+              'text-white font-medium rounded-full shadow-lg bg-[#2A338E]',
+              'py-2 px-6 sm:px-8 md:px-10',
+              'text-base sm:text-lg md:text-xl',
+              'mb-10',
+            )}
+          >
+            인사말
+          </Badge>
+          <div className={cn('max-w-4xl w-full text-center')}>
+            <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              <span className="text-base sm:text-lg md:text-xl font-semibold">
+              안녕하세요,
+              </span>
+            </p>
+            <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              <span className="text-base sm:text-lg md:text-xl font-semibold">
+              하늘 국어영재원을 찾아주셔서 진심으로 감사드립니다.
+              </span>
+                <br />
+                <br />
+            </p>
+             <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              세상이 빠르게 변화하고 있는 지금, 교육의 방향 또한 새롭게 정의되고 있습니다. 단순한 지식 전달을 넘어, <br />
+              융합적 사고력과 깊이 있는 인문학적 소양을 갖춘 인재의 필요성이 그 어느 때보다 강조되고 있습니다.
+                <br />
+                <br />
+             </p>
+             <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              하늘 국어영재원은 이러한 시대적 요구에 발맞추어, 국어학력 향상을 위한 차별화된 국어 교육 시스템을 구축하였습니다.<br />
+              수능 지문을 기반으로 전 영역의 배경지식, 즉 ‘스키마’를 형성할 수 있도록 설계된 커리큘럼,<br />
+              서울대 및 메디컬 대학 권장 도서를 활용한 수행 독서, <br />
+              그리고 진로 연계 글쓰기를 통해 학생 스스로 사고하고 표현하는 힘을 길러줍니다.
+                <br />
+                <br />
+             </p>
+             <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              또한, 서울대 국어교육 석사 이상의 연구진들이 직접 개발한 프리미엄 교재와 수업 시스템, <br />
+              그리고 원장 직강 수업을 통해 진정한 국어 영재를 길러내는 데에 집중하고 있습니다.
+                <br />
+                <br />
+             </p>
+             <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              하늘 국어영재원은 단순한 학원이 아닌, 학생의 진로와 삶을 설계하는 ‘교육 파트너’가 되고자 합니다. <br />
+              학생 한 명 한 명이 자신의 지성과 개성을 꽃피우고, 미래를 향해 도약할 수 있도록 늘 최선을 다하겠습니다.
+                <br />
+                <br />
+             </p>
+             <p className={cn('text-sm sm:text-base md:text-lg text-gray-800 leading-relaxed whitespace-pre-line')}>
+              감사합니다.
+            </p>
+
+            <p className={cn('mt-6 text-[#2A338E] font-semibold text-base sm:text-lg md:text-xl')}>
+              - 하늘 국어영재원 원장 -
+            </p>
+
+            <div
+              className={cn(
+                'mt-8 bg-gray-50 border border-gray-200 rounded-lg p-6',
+                'text-sm sm:text-base text-left text-gray-700',
+                'grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3',
+              )}
+            >
+              <p>· 現 국어영재원 현 대표</p>
+              <p>· 現 국어영재원 현 대표컨설턴트</p>
+              <p>· 現 서울대, 의대 전문 입시코디</p>
+              <p>· 前 디아 아카데미 대표 원장</p>
+              <p>· 前 수성구 중고등학교 교사</p>
+              <p>· 비상 교육 교과서 검토 위원</p>
+              <p>· 천재 교육 교과서 검토 위원</p>
+              <p>· 대구 교육감 인재 양성 표창</p>
+              <p>· 교육부 장관 인재 양성 표창</p>
+              <p>· 1급 중고등학교 정교사 자격</p>
+              <p>· 독서논술지도사 자격</p>
+              <p>· 심리 상담사 자격</p>
+              <p>· 청소년 상담 자격</p>
+            </div>
+          </div>
+        </section>
+
+
       {/* 가치와 비전 */}
       <section
         id="value"
@@ -214,7 +305,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* 학습목표 */}
+        {/* 학습목표 */}
       <section
         id="goals"
         className={cn(
@@ -267,7 +358,7 @@ export default function About() {
               >
                 비문학 지문을 문장 단위로 읽으며 도출할 수 있는 정보를 생각하고
                 <br className="hidden sm:block" />
-                자료를 활용하여 질문에 맞게 논리적인 글쓰기를 할 수 있다.
+                &nbsp;자료를 활용하여 질문에 맞게 논리적인 글쓰기를 할 수 있다.
               </p>
             </div>
           </div>
@@ -297,11 +388,11 @@ export default function About() {
                   'text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl',
                 )}
               >
-                2022 개정 교육과정 교과서에 수록된 문학 작품을 감상하여
+                2022 개정 교육과정 교과서에 수록된 문학 작품을 감상하여 
                 <br className="hidden sm:block" />
-                문학이 우리 삶과 맞닿아 있음을 이해하고, 삶에 적용해보는
+                &nbsp;문학이 우리 삶과 맞닿아 있음을 이해하고, 삶에 적용해보는 
                 <br className="hidden sm:block" />
-                자기표현적 글쓰기를 할 수 있다.
+                &nbsp;자기표현적 글쓰기를 할 수 있다.
               </p>
             </div>
           </div>
@@ -331,16 +422,105 @@ export default function About() {
                   'text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl',
                 )}
               >
-                우리 삶에서 실제로 일어나는 시사 문제에 대해 생각해보는
+                우리 삶에서 일어나는 시사문제에 대해 사고하는 
                 <br className="hidden sm:block" />
-                사회참여적 글쓰기와 수행 독서를 통해 개념은 지식과 진로를
+                &nbsp;사회참여적 글쓰기와 수행독서를 통해, 개념을 자신의 진로와 
                 <br className="hidden sm:block" />
-                연관지어 보는 진로 연계글쓰기를 할 수 있다.
+                &nbsp;연관짓는 진로 연계 글쓰기를 할 수 있다.
               </p>
             </div>
           </div>
         </div>
       </section>
+
+        {/* 위치 안내 */}
+          <section
+            id="location"
+            className={cn(
+              'flex flex-col items-center justify-center bg-[white] w-full',
+              'py-12 sm:py-16 md:py-20 lg:py-24',
+              'px-4 sm:px-6 md:px-8 lg:px-12',
+            )}
+          >
+            {/* 배지 타이틀 */}
+            <Badge
+              className={cn(
+                'text-white font-medium rounded-full shadow-lg bg-[#2A338E]',
+                'py-2 px-6 sm:px-8 md:px-10',
+                'text-base sm:text-lg md:text-xl',
+                'mb-10',
+              )}
+            >
+              학원 위치 안내
+            </Badge>
+
+            {/* 설명 문구 */}
+            <p
+              className={cn(
+                'text-center text-sm sm:text-base md:text-lg text-gray-800',
+                'mb-8',
+              )}
+            >
+              하늘 국어영재원은 <strong>대구 수성구 달구벌대로 2507, 8층</strong>에 위치해 있습니다.
+              <br className="hidden sm:block" />
+              &nbsp;아래 지도를 클릭하시면 네이버 지도에서 확인하실 수 있습니다.
+            </p>
+
+            {/* 지도 이미지 & 버튼 */}
+            <div className="w-full max-w-3xl">
+              <a
+                href="https://naver.me/Fiv6kXBA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <Image
+                  src="/naver-map.png"
+                  alt="하늘 국어영재원 위치 - 네이버 지도 보기"
+                  width={800}
+                  height={400}
+                  className="rounded-lg shadow-md w-full object-cover"
+                />
+              </a>
+
+              <p className="text-sm text-center mt-4 text-gray-600">
+                <a
+                  href="https://naver.me/Fiv6kXBA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-[#2A338E] font-medium"
+                >
+                  네이버 지도에서 크게 보기
+                </a>
+              </p>
+            </div>
+          </section>
+
+        {/* 학원 규정 */}
+          <section
+            id="rules"
+            className={cn('bg-[#E7F3FF] py-20 px-6 md:px-12')}
+          >
+            <div className="max-w-4xl mx-auto text-center">
+              <Badge
+                className={cn(
+                  'text-white font-medium rounded-full shadow-lg bg-[#2A338E]',
+                  'py-2 px-6 sm:px-8 md:px-10',
+                  'text-base sm:text-lg md:text-xl',
+                  'mb-10',
+                )}
+              >
+                학원 규정
+              </Badge>
+              <Image
+                src="/academy-rules.jpg" // public 폴더에 저장된 이미지 경로
+                alt="학원 규정"
+                width={800}
+                height={600}
+                className="mx-auto rounded shadow-md"
+              />
+            </div>
+          </section>
     </div>
   );
 }
