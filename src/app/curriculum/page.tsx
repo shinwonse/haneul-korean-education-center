@@ -10,7 +10,7 @@ interface CurriculumItem {
 const curriculumData: CurriculumItem[] = [
   {
     month: '1월',
-    content: '인문학, 철학 / 현대시 읽기 / 사설 테마 : 정치',
+    content: '인문, 철학 / 현대시 읽기 / 사설 테마 : 정치',
   },
   {
     month: '2월',
@@ -26,7 +26,7 @@ const curriculumData: CurriculumItem[] = [
   },
   {
     month: '5월',
-    content: '생명과학 / 현대소설과 극 읽기 / 사설 테마 : 의료',
+    content: '생명과학(의료) / 현대소설과 극 읽기 / 사설 테마 : 의료',
   },
   {
     month: '6월',
@@ -38,7 +38,7 @@ const curriculumData: CurriculumItem[] = [
   },
   {
     month: '8월',
-    content: '공학 / 고전시가 읽기 / 사설 테마 : 인공 지능',
+    content: '화학, 물리학, 공학 / 고전시가 읽기 / 사설 테마 : 인공 지능, 기술',
   },
   {
     month: '9월',
@@ -46,7 +46,7 @@ const curriculumData: CurriculumItem[] = [
   },
   {
     month: '10월',
-    content: '법학 / 고전산문 읽기 / 사설 테마 : 윤리, 법',
+    content: '법학 / 고전산문 읽기 / 사설 테마 : 윤리, 범죄',
   },
   {
     month: '11월',
@@ -54,7 +54,7 @@ const curriculumData: CurriculumItem[] = [
   },
   {
     month: '12월',
-    content: '역사학 / 고전산문 읽기 / 사설 테마 : 역사',
+    content: '역사 / 고전산문 읽기 / 사설 테마 : 역사',
   },
 ];
 
@@ -169,11 +169,11 @@ export default function Curriculum() {
             </div>
             <div className={cn('space-y-3')}>
               <div className={cn('flex border-b border-gray-200 pb-3')}>
-                <div className={cn('w-48 font-medium')}>STEP1 ~ STEP3 :</div>
+                <div className={cn('w-48 font-medium')}>1~3단계 :</div>
                 <div>지문 읽기 훈련</div>
               </div>
               <div className={cn('flex border-b border-gray-200 pb-3')}>
-                <div className={cn('w-48 font-medium')}>STEP4 :</div>
+                <div className={cn('w-48 font-medium')}>4단계 :</div>
                 <div>생각의 확장 (논리적 글쓰기)</div>
               </div>
               <div className={cn('flex')}>
@@ -206,11 +206,11 @@ export default function Curriculum() {
             </div>
             <div className={cn('space-y-3')}>
               <div className={cn('flex border-b border-gray-200 pb-3')}>
-                <div className={cn('w-48 font-medium')}>STEP1 ~ STEP3 :</div>
+                <div className={cn('w-48 font-medium')}>1~3단계 :</div>
                 <div>작품 감상 훈련 + 문학 개념어 적용</div>
               </div>
               <div className={cn('flex border-b border-gray-200 pb-3')}>
-                <div className={cn('w-48 font-medium')}>STEP4 :</div>
+                <div className={cn('w-48 font-medium')}>4단계 :</div>
                 <div>생각의 확장 (자기 표현적 글쓰기)</div>
               </div>
               <div className={cn('flex')}>

@@ -206,7 +206,7 @@ export default function Admission() {
                     'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
                   )}
                 >
-                  50분
+                  60분
                 </td>
                 <td
                   className={cn(
@@ -262,7 +262,7 @@ export default function Admission() {
                     'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
                   )}
                 >
-                  50분
+                  60분
                 </td>
                 <td
                   className={cn(
@@ -270,7 +270,7 @@ export default function Admission() {
                   )}
                 >
                   문학 개념어를 이해하고 2022 개정 교육과정 필수 문학 작품을
-                  함께 분석하고 자기 표현적 글쓰기 진행
+                  함께 분석하며 자기 표현적 글쓰기 진행
                 </td>
               </tr>
               {/* 3교시 */}
@@ -294,7 +294,7 @@ export default function Admission() {
                     'p-4 text-center border-r border-gray-300 bg-white whitespace-nowrap',
                   )}
                 >
-                  50분
+                  60분
                 </td>
                 <td className={cn('p-4 text-center bg-white')}>
                   최상위권 대학 선정 도서를 기반으로 독서 토론 및 비평문 작성
@@ -336,7 +336,7 @@ export default function Admission() {
               2
             </div>
             <div className={cn('text-lg text-gray-800 leading-relaxed')}>
-              <div>매주 복습 테스트 결과, 4주차 정기고사 결과를 기반으로</div>
+              <div>4주차 정기고사 결과를 기반으로</div>
               <div>취약점, 강점 분석 후 학습 상담 진행</div>
             </div>
           </div>
