@@ -155,152 +155,98 @@ export default function Admission() {
               </tr>
             </thead>
             <tbody>
-              {/* 복습 테스트 */}
-              <tr>
-                <td
-                  className={cn(
-                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
-                  )}
-                ></td>
-                <td
-                  className={cn(
-                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
-                  )}
-                >
-                  복습 테스트
-                </td>
-                <td
-                  className={cn(
-                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
-                  )}
-                >
-                  10분
-                </td>
-                <td
-                  className={cn(
-                    'p-4 text-center bg-white border-b border-gray-300',
-                  )}
-                >
-                  지난 주차 배운 내용 확인
-                </td>
-              </tr>
-              {/* 1교시 - 비문학 */}
-              <tr>
-                <td
-                  rowSpan={2}
-                  className={cn(
-                    'p-4 text-center font-semibold border-r bg-white border-b border-gray-300 align-middle whitespace-nowrap',
-                  )}
-                >
-                  1교시
-                </td>
-                <td
-                  className={cn(
-                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
-                  )}
-                >
-                  비문학
-                </td>
-                <td
-                  className={cn(
-                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
-                  )}
-                >
-                  60분
-                </td>
-                <td
-                  className={cn(
-                    'p-4 text-center bg-white border-b border-gray-300',
-                  )}
-                >
-                  교육과정평가원 출제 수능, 모의고사 지문을 함께 분석하고 논리적
-                  글쓰기 진행
-                </td>
-              </tr>
-              {/* 1교시 - 개별 피드백 */}
-              <tr>
-                <td
-                  className={cn(
-                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
-                  )}
-                >
-                  개별 피드백
-                </td>
-                <td
-                  className={cn(
-                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
-                  )}
-                >
-                  10분
-                </td>
-                <td
-                  className={cn(
-                    'p-4 text-center bg-white border-b border-gray-300',
-                  )}
-                >
-                  학생 질문 답변 및 개별 취약점 보완
-                </td>
-              </tr>
-              {/* 2교시 */}
-              <tr>
-                <td
-                  className={cn(
-                    'p-4 text-center font-semibold border-r bg-white border-b border-gray-300 whitespace-nowrap',
-                  )}
-                >
-                  2교시
-                </td>
-                <td
-                  className={cn(
-                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
-                  )}
-                >
-                  문학
-                </td>
-                <td
-                  className={cn(
-                    'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
-                  )}
-                >
-                  60분
-                </td>
-                <td
-                  className={cn(
-                    'p-4 text-center bg-white border-b border-gray-300',
-                  )}
-                >
-                  문학 개념어를 이해하고 2022 개정 교육과정 필수 문학 작품을
-                  함께 분석하며 자기 표현적 글쓰기 진행
-                </td>
-              </tr>
-              {/* 3교시 */}
-              <tr>
-                <td
-                  className={cn(
-                    'p-4 text-center font-semibold border-r border-gray-300 bg-white whitespace-nowrap',
-                  )}
-                >
-                  3교시
-                </td>
-                <td
-                  className={cn(
-                    'p-4 text-center border-r border-gray-300 bg-white whitespace-nowrap',
-                  )}
-                >
-                  수행 독서
-                </td>
-                <td
-                  className={cn(
-                    'p-4 text-center border-r border-gray-300 bg-white whitespace-nowrap',
-                  )}
-                >
-                  60분
-                </td>
-                <td className={cn('p-4 text-center bg-white')}>
-                  최상위권 대학 선정 도서를 기반으로 독서 토론 및 비평문 작성
-                </td>
-              </tr>
-            </tbody>
+  {/* 1교시 - 비문학 */}
+  <tr>
+    <td
+      className={cn(
+        'p-4 text-center font-semibold border-r bg-white border-b border-gray-300 align-middle whitespace-nowrap',
+      )}
+    >
+      1교시
+    </td>
+    <td
+      className={cn(
+        'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
+      )}
+    >
+      비문학
+    </td>
+    <td
+      className={cn(
+        'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
+      )}
+    >
+      60분
+    </td>
+    <td
+      className={cn(
+        'p-4 text-center bg-white border-b border-gray-300',
+      )}
+    >
+      교육과정평가원 출제 수능, 모의고사 지문을 함께 분석하고 논리적 글쓰기 진행
+    </td>
+  </tr>
+
+  {/* 2교시 */}
+  <tr>
+    <td
+      className={cn(
+        'p-4 text-center font-semibold border-r bg-white border-b border-gray-300 whitespace-nowrap',
+      )}
+    >
+      2교시
+    </td>
+    <td
+      className={cn(
+        'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
+      )}
+    >
+      문학
+    </td>
+    <td
+      className={cn(
+        'p-4 text-center border-r bg-white border-b border-gray-300 whitespace-nowrap',
+      )}
+    >
+      60분
+    </td>
+    <td
+      className={cn(
+        'p-4 text-center bg-white border-b border-gray-300',
+      )}
+    >
+      문학 개념어를 이해하고 2022 개정 교육과정 필수 문학 작품을 함께 분석하며 자기 표현적 글쓰기 진행
+    </td>
+  </tr>
+
+  {/* 3교시 */}
+  <tr>
+    <td
+      className={cn(
+        'p-4 text-center font-semibold border-r border-gray-300 bg-white whitespace-nowrap',
+      )}
+    >
+      3교시
+    </td>
+    <td
+      className={cn(
+        'p-4 text-center border-r border-gray-300 bg-white whitespace-nowrap',
+      )}
+    >
+      수행 독서
+    </td>
+    <td
+      className={cn(
+        'p-4 text-center border-r border-gray-300 bg-white whitespace-nowrap',
+      )}
+    >
+      60분
+    </td>
+    <td className={cn('p-4 text-center bg-white')}>
+      최상위권 대학 선정 도서를 기반으로 독서 토론 및 비평문 작성
+    </td>
+  </tr>
+</tbody>
           </table>
         </div>
       </div>
