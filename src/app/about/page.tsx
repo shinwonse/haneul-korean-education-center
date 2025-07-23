@@ -479,8 +479,16 @@ export default function About() {
                   'mb-10',
                 )}
               >
+                
                 학원 규정
               </Badge>
+              <Image
+                src="/academy-rules2.jpg" // public 폴더에 저장된 이미지 경로
+                alt="교습비등 게시표"
+                width={800}
+                height={600}
+                className="mx-auto rounded shadow-md"
+              />&nbsp;
               <Image
                 src="/academy-rules.jpg" // public 폴더에 저장된 이미지 경로
                 alt="학원 규정"
