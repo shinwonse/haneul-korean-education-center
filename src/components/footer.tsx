@@ -45,10 +45,15 @@ export function Footer() {
       </div>
       <div className="text-center">
         <p className={cn('text-white text-sm')}>
-          대구 수성구 달구벌대로 2507 8층
+          주소 : 대구 수성구 달구벌대로 2507 8층
         </p>
-      <br />
-        <p className={cn('text-white text-xs')}>
+        <p className={cn('text-sm')} style={{ color: '#767cbf' }}>
+          명칭 : 하늘국어영재원학원
+        </p>
+        <p className={cn('text-sm')} style={{ color: '#767cbf' }}>
+          학원설립운영등록번호 : 제 6972호
+        </p>
+        <p className={cn('text-white text-xs', 'mt-8')}>
           ⓒ haneuledu all rights reserved.
         </p>
       </div>
