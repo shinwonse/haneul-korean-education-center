@@ -84,29 +84,10 @@ export default function About() {
             </p>
 
             <p className={cn('mt-6 text-[#2A338E] font-semibold text-base sm:text-lg md:text-xl')}>
-              - 하늘국어영재원 현원장 올림 -
+              - 하늘국어영재원 -
             </p>
 
-            <div
-              className={cn(
-                'mt-8 bg-gray-50 border border-gray-200 rounded-lg p-6',
-                'text-sm sm:text-base text-left text-gray-700',
-                'grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3',
-              )}
-            >
-              <p>· 現 하늘국어영재원 대표 원장</p>
-              <p>· 現 현 국어영재원 대표</p>
-              <p>· 現 현 국어영재원 대표컨설턴트</p>
-              <p>· 現 서울대, 의대 전문 입시코디</p>
-              <p>· 前 수성구 중.고등학교 교사</p>
-              <p>· 비상 교육 교과서 검토 위원</p>
-              <p>· 천재 교육 교과서 검토 위원</p>
-              <p>· 대구 교육감 인재 양성 표창</p>
-              <p>· 교육부 장관 인재 양성 표창</p>
-              <p>· 1급 중고등학교 정교사 자격</p>
-              <p>· 독서논술지도사 자격</p>
-              <p>· 심리 상담사 자격</p>
-            </div>
+            
           </div>
         </section>
 
